@@ -1,0 +1,217 @@
+html, body {
+  font-size: 16px;
+   height: auto; /* This will set the height of the body element to be the same as the height of its content */
+    overflow: hidden; /* This will hide any overflow of the content */
+}
+
+
+/* Styles for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
+.header-image {
+  text-align: center;
+}
+
+.header-image img {
+  height: auto;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+img {
+  position: relative;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-bg {
+  position: fixed; 
+  top: 0; /* this will align the top of the element with the top ofthe page */
+  left: 0; /* this will align the left of the element with the left of the page */
+  width: 100%; /* this will make the element as wide as the page */
+  height: 8vw; /* this will make the element as tall as the header */
+  background: linear-gradient(to bottom, #161823 80%, transparent); 
+  z-index: 9; /* this will make sure the element is behind the header */
+  overflow: hidden;
+}
+
+.logo-container {
+  position: fixed; 
+  top: 0.5vw;
+  left: 0vw;
+  width: 7vw;
+  height: 7vw;
+  background:transparent;
+  z-index:12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+#nav-menu{
+  position: fixed;
+  top:1vw;
+  right:5vw;
+  width: 33vw;
+  height:6vw;  
+  z-index: 14;
+}
+
+#nav-menu ul {
+  position: relative;
+  display: flex;
+  top: calc((6vw - 5.5vh)/2);
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 15;
+}
+
+#nav-menu li {
+  flex:1 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(1.5vw);
+  line-height: 2vh;
+  margin: 2vh; 
+  text-align: right;
+}
+
+
+#nav-menu li a {
+  color: #fefefe; /* This will set the color of the text to the same color as the parent element */
+   text-decoration: none;
+}
+
+#nav-menu li:hover a {
+    color:  #81dee0; /*  This will create a gradient that goes from red to yellow */
+}
+
+
+.gif-container {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  width: 70vw;
+  height: 40vw;
+  margin-left:-35vw;
+  margin-top:-20vw;
+  z-index:-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gif-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px 8px #161823 inset;
+}
+
+/* 
+remnants of a past nav menu design
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #00b3b8;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-style: normal;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+}
+
+nav a {
+  color: #00bcc2;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+}
+--  */
+
+
+body {
+  background-color:  #161823;
+}
+
+
+
+#container {
+ display: flex;
+  height: 100vh; /* This will set the height of the container to be the full height of the viewport */
+  align-items: flex-end; /* This will align the child elements at the bottom of the container */
+  
+}
+
+#large-text {
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  margin-bottom: 50px;
+  text-align: Left;
+  font-size: 46px;
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+  padding:  0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #00bcc2, #ffffff);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease-in-out;
+  z-index:12;
+}

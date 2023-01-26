@@ -1,0 +1,219 @@
+html, body {
+  font-size: 16px;
+   height: auto; /* This will set the height of the body element to be the same as the height of its content */
+    background-color:  #181821;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.header-bg {
+  position: fixed; 
+  top: 0; /* this will align the top of the element with the top ofthe page */
+  left: 0; /* this will align the left of the element with the left of the page */
+  width: 100%; /* this will make the element as wide as the page */
+  height: 8vw; /* this will make the element as tall as the header */
+  background: linear-gradient(to bottom, #181821 80%, transparent); 
+  z-index: 9; /* this will make sure the element is behind the header */
+  overflow: hidden;
+}
+
+
+#nav-menu{
+  position: fixed;
+  top:1vw;
+  right:5vw;
+  width: 33vw;
+  height:6vw;  
+  z-index: 14;
+}
+
+#nav-menu ul {
+  position: relative;
+  display: flex;
+  top: calc((6vw - 5.5vh)/2);
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 15;
+}
+
+#nav-menu li {
+  flex:1 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(1.5vw);
+  line-height: 2vh;
+  margin: 2vh; 
+  text-align: right;
+}
+
+
+#nav-menu li a {
+  color: #fefefe; /* This will set the color of the text to the same color as the parent element */
+   text-decoration: none;
+}
+
+#nav-menu li:hover a {
+    color:  #81dee0; /*  This will create a gradient that goes from red to yellow */
+}
+
+.logo-container {
+  position: fixed; 
+  top: 0.5vw;
+  left: 0vw;
+  width: 7vw;
+  height: 7vw;
+  background:transparent;
+  z-index:12;
+}
+
+.logo-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:8vw;
+  height: 8vw;
+  z-index: 10;
+   font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
+  margin-top:1.5vw;
+ padding:  0;
+  background-clip: text;
+   -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #00bcc2, #ffffff);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease-in-out;
+}
+
+
+.parent-container {
+    margin-top: 9vw;
+    display: grid;
+  grid-template-areas: "buildingPhoto Infobox";
+     grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+  padding-left: 15%;
+  align-items:start;
+    
+}
+
+#buildingPhoto {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top:2%;
+ padding-left: 15%;
+  align-self: start;
+  justify-self: center;
+  object-fit: cover;
+}
+
+#Infobox {
+  position: relative;
+   flex-wrap: nowrap;
+}
+
+#someText {
+  position: relative;
+  margin-top:2%;
+}
+
+#buildingPhoto   { grid-area: buildingPhoto }
+#Infobox  { grid-area: Infobox }
+
+p{
+ margin-top: 0%; 
+  font-family: 'Hind';
+  font-size: max(calc(1vw),10px) ;
+  color: #fefeffff;
+  padding-right: 15%;
+  padding-left: 15%;
+  align-self:start;
+ 
+}
+
+
+#map { 
+      left:50%;
+      height: 25vh;
+       width: 80%;
+      margin-left:-40%;
+      margin-bottom:5vh;
+  margin-top:2%;
+  border:5px solid #80dde0;
+      
+       }
+
+a:link {
+  color: #48a5c4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #80dee1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*
+
+#menu-button {
+  width: 3.6vw;
+  height: 3vw;
+  position: fixed; 
+  top: 0vw; 
+  right: 3vw; 
+  margin-top: 4vw;
+  z-index: 12;
+  cursor: pointer;
+ padding: 0;
+  border: none;
+  background: none;
+}
+
+#menu-button:before, #menu-button:after {
+  content: "";
+  width: 3.6vw;
+  height: calc(0.2vw + 1px); 
+  background-color: #e5f8f9;
+  position: absolute;
+  left: 0;
+}
+
+#menu-button:before {
+  top: 0;
+}
+
+#menu-button:after {
+  top: 1vw;
+}
+
+#menu-button.active:before, #menu-button.active:after  {
+  background-color:#00bcc2;
+}
+*/

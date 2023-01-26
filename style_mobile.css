@@ -1,0 +1,288 @@
+html, body {
+  font-size: 16px;
+   height: auto; /* This will set the height of the body element to be the same as the height of its content */
+    background-color:  #161823;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#menu-button {
+  width: 10vw;
+  height: 8.3vw;
+  position: fixed; 
+  top: 0vw; 
+  right: 6vw; 
+  margin-top: 4vw;
+  z-index: 12;
+  cursor: pointer;
+ padding: 0;
+  border: none;
+  background: none;
+}
+
+#menu-button:before, #menu-button:after {
+  content: "";
+  width: 10vw;
+  height: calc(0.8vw + 1px); 
+  background-color: #e5f8f9;
+  position: absolute;
+  left: 0;
+}
+
+#menu-button:before {
+  top: 0;
+}
+
+#menu-button:after {
+  top: 3vw;
+}
+
+#menu-button.active:before, #menu-button.active:after  {
+  background-color:#f9fdfd;
+}
+
+#nav-menu{
+  position: fixed;
+  display: none;
+  top:6vh;
+  right:6vw;
+  height:6vw;  
+  
+  z-index: 14;
+}
+
+#nav-menu ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 2vh;
+  flex-wrap: no;
+  justify-content: flex-end;
+  align-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 15;
+  background-color:rgba(22,24,35,0.5);
+}
+
+#nav-menu li {
+  flex:1 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16pt;
+  line-height: 8vh;
+  margin: 5px; 
+  text-align: right;
+}
+
+
+#nav-menu li a {
+  color: #fefefe; /* This will set the color of the text to the same color as the parent element */
+   text-decoration: none;
+}
+
+#nav-menu li:hover a {
+    color:  #81dee0; /*  This will create a gradient that goes from red to yellow */
+}
+
+
+h2 {
+  position: relative;
+  width: 100%;
+  top:0;
+  left:1vw;
+  height: 7vw;
+  z-index: 10;
+   font-family: 'Montserrat', sans-serif;
+  font-size: 16pt;
+  margin-top:1vh;
+  margin-bottom: 3vh;
+ padding:  0;
+  background-clip: text;
+   -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #00bcc2, #ffffff);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease-in-out;
+}
+
+.gif-container {
+  position:relative;
+  left: 0vw;
+  width: 100vw;
+  height: 120vw;
+  margin-top: 0vh;
+  margin-bottom:20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gif-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  transform: scale(2);
+}
+
+#blurb {
+    margin-top: 2vh; 
+  font-family: 'Hind';
+  font-size: max(calc(1vw),10px) ;
+  color: #fefeffff;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom:10%;
+  align-self:start;
+  
+}
+
+
+.parent-container-members {
+    display: grid;
+   margin-top: 9vw;
+  left:10vw;
+  margin-left: 10vw;
+     grid-template-columns:80vw ;
+    grid-template-rows: auto auto;
+  align-items:start;
+  padding-bottom:10%;
+}
+
+#monkPhoto {
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
+  width: 70vw;
+  margin-top:2%;
+}
+
+#monkHead {
+  font-family: 'Hind';
+  font-size: calc(0.5vw + 12px);
+  
+}
+
+#monkBlurb {
+   grid-column: 1 / 1;
+  grid-row: 2 / 2;
+   font-family: 'Hind';
+  font-size: calc(0.5vw + 12px);
+  color: #fefeffff;
+  padding-top: 5px;
+  align-self:start;
+  justify-self:left;
+  max-width: 80vw;
+}
+
+.academicons {
+  font-family: 'Academicons';
+  font-size: 1vw;
+}
+
+
+.someText {
+   font-family: 'Hind';
+  font-size: max(calc(1vw),10px);
+  color: #fefeffff;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.csl-bib-body{
+    margin-top: 9vw;
+}
+
+.csl-bib-body div {
+  margin-bottom: 20px;
+ 
+}
+
+.csl-bib-body > div {
+  font-family: 'Hind';
+  font-size: max(calc(1vw),10px);
+  color: #fefeffff;
+  padding-right: 5%;
+  padding-left: 5%;
+  
+}
+
+.csl-bib-body  {
+  counter-reset: item;
+}
+
+.csl-entry::before {
+  counter-increment: item;
+  content: counter(item) ". ";
+
+}
+
+
+
+#buildingPhoto {
+  width: 50%;
+  height: auto;
+  margin-top:2%;
+ padding-left: 5%;
+
+}
+
+#Infobox {
+  position: relative;
+  margin-top:0; 
+  font-family: 'Hind';
+  font-size: max(calc(1vw),10px) ;
+  color: #fefeffff;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom:10%;
+  align-self:start;
+}
+
+#someText,#someText2 {
+  position: relative;
+  margin-top:2%;
+    margin-top: 2vh; 
+  font-family: 'Hind';
+  font-size: max(calc(1vw),10px) ;
+  color: #fefeffff;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom:2%;
+  align-self:start;
+}
+
+
+#map { 
+      left:50%;
+      height: 25vh;
+       width: 80%;
+      margin-left:-40%;
+      margin-bottom:5vh;
+  margin-top:2%;
+  border:5px solid #80dde0;
+      
+       }
+
+
+
+a:link {
+  color: #48a5c4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #80dee1;
+  background-color: transparent;
+  text-decoration: none;
+}

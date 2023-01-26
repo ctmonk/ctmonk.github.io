@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/xl-icon" href="LogoBlack.svg", sizes = "32x32">
+  <title>MarBehEco_Contact</title>
+  <link rel="stylesheet" href="style_contact.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+ 
+}
+</head>
+
+  <body>
+    <!-- menu -->
+ <div class="header-bg"> </div>
+  <div id="nav-menu">
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="About.html">About</a></li>
+     <li><a href="Members.html">Members</a></li>
+     <li><a href="Publications.html">Publications</a ></li>
+     <li><a href="Visualizations.html">Visualizations</a></li>
+     <li><a href="Contact.html">Contact</a></li>
+    </ul>
+     </div>
+    
+    
+  <div id="contact-info">
+    <div class="logo-container">
+     <img src="LogoLight.svg" alt="Logolight" id="logolight">
+   </div>
+   
+    <h2>Contact</h2>
+
+    
+   
+ <div class="parent-container" >
+
+    
+    <img id="buildingPhoto" src="GeomarWestShore.jpg"/> 
+
+    <div id = "Infobox">
+      <p></p>
+      <p><b>Email:<a href = "mailto:cmonk@geomar.de"> cmonk (at) geomar.de</a></b><br>
+      <b>Office:</b> A44<br>
+      <b>Phone:</b> +49 431 600-4556<br>
+      <b>Address:</b> GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel<br>
+&emsp;&emsp;&emsp;&nbsp;&nbsp; Düsternbrooker Weg 20<br>
+&emsp;&emsp;&emsp;&nbsp;&nbsp; 24105 Kiel</p>
+    </div>
+  </div>
+    
+      <p id="someText">
+      We are currently located in the building on the west shore of the Kiel Fjord (pictured above).</p>
+
+      <div id="map"></div>
+      
+      <script>
+          var map = L.map('map').setView([54.3310822800672, 10.149058036490572], 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+        var marker = L.marker([54.33000796391473, 10.148022121652911]).addTo(map);
+      </script>
+      
+ 
+  </div>
+
+
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

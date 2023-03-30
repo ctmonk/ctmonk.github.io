@@ -149,39 +149,58 @@ h2 {
 
 
 .parent-container-members {
-    display: grid;
-   margin-top: 9vw;
-  left:10vw;
-  margin-left: 10vw;
-     grid-template-columns:80vw ;
-    grid-template-rows: auto auto;
-  align-items:start;
-  padding-bottom:10%;
+  display: grid;
+ margin-top: 9vw;
+left:10vw;
+margin-left: 10vw;
+   grid-template-columns:80vw ;
+  grid-template-rows: auto auto;
+align-items:start;
+padding-bottom:10%;
 }
 
+
 #monkPhoto {
-  grid-column: 1 / 1;
-  grid-row: 1 / 2;
-  width: 70vw;
-  margin-top:2%;
+ width:33vw;
+height:53vw;
 }
 
 #monkHead {
-  font-family: 'Hind';
-  font-size: calc(0.5vw + 12px);
-  
+font-family: 'Hind';
+font-size: calc(0.5vw + 12px);
+
 }
 
 #monkBlurb {
-   grid-column: 1 / 1;
-  grid-row: 2 / 2;
-   font-family: 'Hind';
-  font-size: calc(0.5vw + 12px);
-  color: #fefeffff;
-  padding-top: 5px;
-  align-self:start;
-  justify-self:left;
-  max-width: 80vw;
+ font-family: 'Hind';
+font-size: calc(0.5vw + 12px);
+color: #fefeffff;
+padding-top: 5px;
+align-self:start;
+justify-self:left;
+ object-fit: contain; 
+object-position: 100% 0;
+}
+
+#ritterPhoto {
+width:33vw;
+height:53vw;
+object-fit: cover; 
+object-position: 60% 0;
+}
+
+#ritterHead {
+font-family: 'Hind';
+font-size: calc(0.5vw + 12px);
+}
+
+#ritterBlurb {
+ font-family: 'Hind';
+font-size: calc(0.5vw + 12px);
+color: #fefeffff;
+padding-top: 5px;
+align-self:start;
+justify-self:left;
 }
 
 .academicons {

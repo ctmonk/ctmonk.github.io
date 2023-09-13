@@ -103,14 +103,29 @@ h2 {
   transition: background-position 0.5s ease-in-out;
 }
 
+.subheading {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  padding:  0;
+  left:7.5vw;
+  background-clip: text;
+   -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #00bcc2, #ffffff);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease-in-out;
+}
 
-.parent-container {
+.parent-container1 {
   display: grid;
  margin-top: 9vw;
    grid-template-columns:10vw 20vw 5vw 20vw 5vw 20vw 10vw ;
   grid-template-rows: auto auto;
 align-items:start;
-  
 }
 
 #monkPhoto {
@@ -118,6 +133,7 @@ grid-column: 2 / 6;
 grid-row: 1 / 2;
   width: 15vw;
 height:25vw;
+object-fit: cover; 
 }
 
 #monkHead {
@@ -140,33 +156,68 @@ max-width: 20vw;
 object-position: 100% 0;
 }
 
-#ritterPhoto {
-grid-column: 4 / 6;
-grid-row: 1 / 2;
-width: 15vw;
-height:25vw;
-object-fit: cover; 
-object-position: 60% 0;
-}
 
-#ritterHead {
-font-family: 'Hind';
-font-size: calc(0.5vw + 12px);
+#JuberPhoto {
+  grid-column: 4 / 6;
+  grid-row: 1 / 2;
+  width: 15vw;
+  height:25vw;
+  object-fit: cover; 
+  object-position: 60% 0;
+  }
+  
+  #juberHead {
+  font-family: 'Hind';
+  font-size: calc(0.5vw + 12px);
+  
+  }
+  
+  #juberBlurb {
+   grid-column: 4 / 6;
+  grid-row: 2 / 2;
+   font-family: 'Hind';
+  font-size: calc(0.5vw + 12px);
+  color: #fefeffff;
+  padding-top: 5px;
+  align-self:start;
+  justify-self:left;
+  max-width: 20vw;
+  }
+  
+  .parent-container2 {
+    display: grid;
+   margin-top: 3vw;
+     grid-template-columns:10vw 20vw 5vw 20vw 5vw 20vw 10vw ;
+    grid-template-rows: auto auto;
+  align-items:start;
+  }
 
-}
-
-#ritterBlurb {
- grid-column: 4 / 6;
-grid-row: 2 / 2;
- font-family: 'Hind';
-font-size: calc(0.5vw + 12px);
-color: #fefeffff;
-padding-top: 5px;
-align-self:start;
-justify-self:left;
-max-width: 20vw;
-}
-
+  #ritterPhoto {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    width: 15vw;
+    height:25vw;
+    object-fit: cover; 
+    object-position: 60% 0;
+    }
+    
+    #ritterHead {
+    font-family: 'Hind';
+    font-size: calc(0.5vw + 12px);
+    
+    }
+    
+    #ritterBlurb {
+     grid-column: 2 / 6;
+    grid-row: 2 / 2;
+     font-family: 'Hind';
+    font-size: calc(0.5vw + 12px);
+    color: #fefeffff;
+    padding-top: 5px;
+    align-self:start;
+    justify-self:left;
+    max-width: 20vw;
+    }
 
 .academicons {
   font-family: 'Academicons';

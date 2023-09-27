@@ -156,22 +156,23 @@ margin-left: 10vw;
    grid-template-columns:80vw ;
   grid-template-rows: auto auto;
 align-items:start;
-padding-bottom:10%;
+padding-bottom:2%;
 }
 
-
-#monkPhoto {
+.memberPhoto {
  width:33vw;
 height:53vw;
+object-fit: cover; 
+object-position: 60% 0;
 }
 
-#monkHead {
+.memberHead {
 font-family: 'Hind';
 font-size: calc(0.5vw + 12px);
 
 }
 
-#monkBlurb {
+.memberBlurb {
  font-family: 'Hind';
 font-size: calc(0.5vw + 12px);
 color: #fefeffff;
@@ -180,8 +181,20 @@ align-self:start;
 justify-self:left;
  object-fit: contain; 
 object-position: 100% 0;
+padding-bottom:2%;
 }
 
+.parent-container-past-members {
+  display: grid;
+ margin-top: 9vw;
+left:10vw;
+margin-left: 10vw;
+   grid-template-columns:80vw ;
+  grid-template-rows: auto auto;
+align-items:start;
+padding-bottom:10%;
+}
+/* 
 #ritterPhoto {
 width:33vw;
 height:53vw;
@@ -202,12 +215,11 @@ padding-top: 5px;
 align-self:start;
 justify-self:left;
 }
-
+ */
 .academicons {
   font-family: 'Academicons';
   font-size: 1vw;
 }
-
 
 .someText {
    font-family: 'Hind';

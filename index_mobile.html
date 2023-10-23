@@ -256,32 +256,33 @@
     <div class = "Contact"><h2 id = "Contact"> Contact </h2> </div>
  
     
-    <img id="buildingPhoto" src="GeomarWestShore.jpg"/> 
+    <img id="buildingPhoto" src="GeomarEastShore.jpg"/> 
 
     <p id="someText">
       We are currently located in the building on the west shore of the Kiel Fjord (pictured above).</p>
 
-    <div id = "Infobox">
-      <p></p>
-      <p><b>Email:<a href = "mailto:cmonk@geomar.de"> cmonk (at) geomar.de</a></b><br>
-      <b>Office:</b> A44<br>
-      <b>Phone:</b> +49 431 600-4556<br>
-      <b>Address:</b> GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel<br>
-&emsp;&emsp;&emsp;&nbsp;&nbsp; Düsternbrooker Weg 20<br>
-&emsp;&emsp;&emsp;&nbsp;&nbsp; 24105 Kiel</p>
+      <div id = "Infobox">
+        <p></p>
+        <p><b>Email:<a href = "mailto:cmonk@geomar.de"> cmonk (at) geomar.de</a></b><br>
+        <b>Office:</b> 1.402<br>
+        <b>Phone:</b> +49 431 600-4556<br>
+        <b>Address:</b> GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel<br>
+  &emsp;&emsp;&emsp;&nbsp;&nbsp; Wischhofstraße 1-3<br>
+  &emsp;&emsp;&emsp;&nbsp;&nbsp; 24148 Kiel</p>
+      </div>
     </div>
     
      
       <div id="map"></div>
       
       <script>
-          var map = L.map('map').setView([54.3310822800672, 10.149058036490572], 13);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        var map = L.map('map').setView([54.32797, 10.17962], 13);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-        var marker = L.marker([54.33000796391473, 10.148022121652911]).addTo(map);
-      </script>
+      var marker = L.marker([54.32797, 10.17962]).addTo(map);
+    </script>
       
     
    

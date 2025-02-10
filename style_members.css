@@ -184,7 +184,7 @@ object-position: 100% 0;
   max-width: 20vw;
   }
 
-  #MohammadrezaPhoto {
+  #rudnickPhoto {
     grid-column: 6 / 7;
     grid-row: 1 / 2;
     width: 15vw;
@@ -193,13 +193,13 @@ object-position: 100% 0;
     object-position: 60% 0;
     }
     
-    #MohammadrezaHead {
+    #rudnickHead {
     font-family: 'Hind';
     font-size: calc(0.5vw + 12px);
     
     }
     
-    #MohammadrezaBlurb {
+    #rudnickBlurb {
      grid-column: 6 / 7;
     grid-row: 2 / 2;
      font-family: 'Hind';
@@ -219,7 +219,7 @@ object-position: 100% 0;
   align-items:start;
  }
 
-#rudnickPhoto {
+#hentschelPhoto {
 grid-column: 2 / 7;
 grid-row: 1 / 2;
   width: 15vw;
@@ -227,13 +227,13 @@ height:25vw;
 object-fit: cover; 
 }
       
-#rudnickHead {
+#hentschelHead {
   font-family: 'Hind';
   font-size: calc(0.5vw + 12px);
       
  }
       
-#rudnickBlurb {
+#hentschelBlurb {
   grid-column: 2 / 7;
   grid-row: 2 / 2;
   font-family: 'Hind';
@@ -246,7 +246,7 @@ object-fit: cover;
 }
       
       
-#hentschelPhoto {
+#moellerPhoto {
  grid-column: 4 / 7;
  grid-row: 1 / 2;
  width: 15vw;
@@ -255,13 +255,13 @@ object-fit: cover;
  object-position: 60% 0;
 }
         
-#hentschelHead {
+#moellerHead {
   font-family: 'Hind';
   font-size: calc(0.5vw + 12px);
       
 }
         
-#hentschelBlurb {
+#moellerBlurb {
   grid-column: 4 / 7;
   grid-row: 2 / 2;
   font-family: 'Hind';
@@ -273,7 +273,7 @@ object-fit: cover;
    max-width: 20vw;
 }
       
-#moellerPhoto {
+#avgerinouPhoto {
   grid-column: 6 / 7;
   grid-row: 1 / 2;
   width: 15vw;
@@ -282,13 +282,13 @@ object-fit: cover;
   object-position: 60% 0;
 }
           
-#moellerHead {
+#avgerinouHead {
   font-family: 'Hind';
   font-size: calc(0.5vw + 12px);
           
 }
           
-#moellerBlurb {
+#avgerinouBlurb {
   grid-column: 6 / 7;
   grid-row: 2 / 2;
    font-family: 'Hind';
@@ -336,35 +336,6 @@ object-fit: cover;
   object-position: 100% 0;
 }
 
-#avgerinouPhoto {
-  grid-column: 4 / 7;
-  grid-row: 1 / 2;
-  width: 15vw;
-  height:25vw;
-  object-fit: cover; 
-  object-position: 60% 0;
-}
-              
-#avgerinouHead {
-  font-family: 'Hind';
-  font-size: calc(0.5vw + 12px);
-              
-}
-              
-#avgerinouBlurb {
-  grid-column: 4 / 7;
-  grid-row: 2 / 2;
-  font-family: 'Hind';
-  font-size: calc(0.5vw + 12px);
-  color: #fefeffff;
-  padding-top: 5px;
-  align-self:start;
-  justify-self:left;
-  max-width: 20vw;
-  object-fit: contain; 
-  object-position: 100% 0;
-}
-
 .parent-container4 {
   display: grid;
   margin-top: 3vw;
@@ -380,8 +351,35 @@ object-fit: cover;
   align-items:start;
   }
 
-  #JuberPhoto {
+  #MohammadrezaPhoto {
     grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    width: 15vw;
+    height:25vw;
+    object-fit: cover; 
+    object-position: 60% 0;
+    }
+    
+    #MohammadrezaHead {
+    font-family: 'Hind';
+    font-size: calc(0.5vw + 12px);
+    
+    }
+    
+    #MohammadrezaBlurb {
+     grid-column: 2 / 6;
+    grid-row: 2 / 2;
+     font-family: 'Hind';
+    font-size: calc(0.5vw + 12px);
+    color: #fefeffff;
+    padding-top: 5px;
+    align-self:start;
+    justify-self:left;
+    max-width: 20vw;
+    }
+
+  #JuberPhoto {
+    grid-column: 4 / 6;
     grid-row: 1 / 2;
     width: 15vw;
     height:25vw;
@@ -396,7 +394,7 @@ object-fit: cover;
     }
     
     #juberBlurb {
-     grid-column: 2 / 6;
+     grid-column: 4 / 6;
     grid-row: 2 / 2;
      font-family: 'Hind';
     font-size: calc(0.5vw + 12px);
@@ -408,7 +406,7 @@ object-fit: cover;
     }
 
   #ritterPhoto {
-    grid-column: 4 / 6;
+    grid-column: 6 / 6;
     grid-row: 1 / 2;
     width: 15vw;
     height:25vw;
@@ -423,7 +421,7 @@ object-fit: cover;
     }
     
     #ritterBlurb {
-     grid-column: 4 / 6;
+     grid-column: 6 / 6;
     grid-row: 2 / 2;
      font-family: 'Hind';
     font-size: calc(0.5vw + 12px);

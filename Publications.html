@@ -13,22 +13,14 @@
       <link rel="shortcut icon" type="image/xl-icon" href="LogoBlack.svg", sizes = "32x32">
     <title>MarBehEco_Pubs</title>
     <link rel="stylesheet" href="style_pubs.css">
+    <link rel="stylesheet" href="style_navbar.css">
+
   </head>
 
   <body>
     <!-- menu -->
  <div class="header-bg"> </div>
- <div id="nav-menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="News.html">News</a></li>
-    <li><a href="About.html">About</a></li>
-    <li><a href="Members.html">Members</a></li>
-    <li><a href="Publications.html">Publications</a ></li>
-    <li><a href="Visualizations.html">Visualizations</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-  </ul>
-   </div>
+
     
     
   <div id="publications-list">
@@ -38,7 +30,16 @@
    
   <h2>Publications</h2>
 
-    
+  <!-- filter button -->
+  <div class="publication-controls">
+    <input type="text" id="publication-search" placeholder="Search publications..." class="search-input">
+    <div class="filter-options">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="year-2023">2023-2024</button>
+      <button class="filter-btn" data-filter="year-2020">2020-2022</button>
+      <button class="filter-btn" data-filter="year-2010">2011-2019</button>
+    </div>
+  </div>
     
   <div class="csl-bib-body">
     
@@ -107,8 +108,10 @@
     
 </div>
 </div>
-    
-    
-	<script src="script.js"></script>
+
+<div id="navbar-container"></div>
+  
+<script src="script_publication_filter.js"></script>
+<script src="navbar.js"></script>
   </body>
 </html>

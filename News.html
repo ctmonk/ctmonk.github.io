@@ -13,6 +13,7 @@
       <link rel="shortcut icon" type="image/xl-icon" href="LogoBlack.svg", sizes = "32x32">
     <title>MarBehEco_News</title>
     <link rel="stylesheet" href="style_news.css">
+    <link rel="stylesheet" href="style_navbar.css">
   </head>
 
   
@@ -20,18 +21,7 @@
     <!-- menu -->
     
  <div class="header-bg"> </div>
-  <div id="nav-menu">
-    <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="News.html">News</a></li>
-     <li><a href="About.html">About</a></li>
-     <li><a href="Members.html">Members</a></li>
-     <li><a href="Publications.html">Publications</a ></li>
-     <li><a href="Visualizations.html">Visualizations</a></li>
-     <li><a href="Contact.html">Contact</a></li>
-    </ul>
-     </div>
-    
+  
     
   <div id="about-page">
     <div class="logo-container">
@@ -41,54 +31,14 @@
    <h2>News</h2>
       <div class="parent-container" >
   
-        <!-- news 19.06.2023 -->
- <h3 class = "news-header">Attending FishBase Symposium</h3>
- <p class = "news-date">September 8, 2023</p>
- <p class = "news-text"> Christopher Monk attended the annual FishBase Symposium and FishBase Consortium meeting, held this year in Tervuren, Belgium at the Royal Museum for Central Africa. </p>
- <p></p> 
-
-
- <!-- news 19.06.2023 -->
- <h3 class = "news-header">Attending ICFT 8</h3>
- <p class = "news-date">June 19, 2023</p>
-
-<p class = "news-text"> The Marine Biology Group attended the International Conference on Fish Telemetry 8 in Sete France from the 11-16 of June. We presented two posters, introducing a new software for visualizing <a href =  "https://christophermonk.fish/telemetryvisualizationicftjune2023_A0.pdf" > telemetry in 3d</a>, and covering our analysis of <a href =  "https://christophermonk.fish/codisotopesicftjune2023_A0.pdf" > cod diets and personality</a>. </p>
- <p></p>
-
-  <!-- news 30.05.2023 -->
-  <h3 class = "news-header">Alkor cruise Al594</h3>
-        <p class = "news-date">May 30, 2023</p>
-      
-<p class = "news-text"> Christopher Monk joined the second leg of the AL594 cruise, onboard the research vessel Alkor, in the Baltic Sea. As a research group new to the Baltic Sea, this was a great opportunity to get some hands on experience in the ecosystem and evaluate several capture methods and study sites. </p>
-        <p></p>
-
-        <!-- news 01.03.2023 -->
-<h3 class = "news-header">Theses projects available</h3>
-        <p class = "news-date">April 2, 2023</p>
-      
-<p class = "news-text"> Interested in doing a B.Sc. or M.Sc. thesis in the Marine Behavioural Ecology group? Data-driven projects on high-resolution fish behaviour, and lab-based behavioural experiments are currently available to start. In 2024 field based projects will also begin. Please <a href = "mailto:cmonk@geomar.de"> get in touch</a> for more details. </p>
-        <p></p>
-
-           <!-- news 01.03.2023 -->
-   <h3 class = "news-header">Marie Ritter starts an internship</h3>
-        <p class = "news-date">March 1, 2023</p>
-      
-<p class = "news-text"><a href =  "https://christophermonk.fish/Members.html" > Marie Ritter </a> has started a 6 week internship. The internship will cover data analysis of animal movement, acoustic telemetry fundamentals, and range testing in the field. Welcome Marie! </p>
-        <p></p>
-    
-    </div>
-  </div>
-
-    <div class = "twitter-parent">
-    <a class="twitter-timeline" href="https://twitter.com/MonkCT?ref_src=twsrc%5Etfw">Tweets by MonkCT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-
+        <div id="news-container"></div>
   
 <body>
   
   
-
+  <div id="navbar-container"></div>
   
-	<script src="script.js"></script>
+	<script src="script_news_fetch.js"></script>
+  <script src="navbar.js"></script>
   </body>
 </html>

@@ -1,0 +1,135 @@
+[
+    {
+        "title": "Littorina Cruise",
+        "date": "March 19, 2025",
+        "content": "The lab was out on the FK Littorina to Boknis Eck for some equipment testing and receiver deployment trials.",
+        "images": [
+            {
+           "url": "Assets/Images/Littorina_trip1.jpg",
+           "alt": "Planning the test deployment",
+           "caption": "Planning the test deployment"
+           },
+           {
+          "url": "Assets/Images/Littorina_trip2.jpeg",
+           "alt": "Setting off for range testing",
+           "caption": "Setting off for range testing"
+          }
+        ]
+      },
+    {
+        "title": "sMacrobehaviour meeting",
+        "date": "March 3, 2025",
+        "content": "Christopher Monk joined the sMacrobehaviour meeting in Leipzig, an sDIV working group focused on understanding the macroecology of vertebrate behaviour. Read more about the project here: <a href='https://www.idiv.de/research/sdiv/working-groups/smacrobehaviour/'>sMacrobehaviour</a>."
+      },
+
+    {
+        "title": "Lab Christmas Party",
+        "date": "Dec 13, 2024",
+        "content": "The Marine Behavioural Ecology Lab had their annual Christmas party today, enjoying the Kiel Christmas markets",
+        "images": [{
+           "url": "Assets/Images/Christmas_party_2024.jpg",
+           "alt": "Christmas part 2024 group photo",
+           "caption": "Winter weather at the Kiel Christmas markets"
+        }]
+      },  
+    {
+        "title": "Mohammadreza defends thesis",
+        "date": "December 13, 2024",
+        "content": "Mohammadreza Hemmati successfully defended his Master's thesis, 'A Quantitative assessment of an exploration-exploitation framework to predict at-sea fisher social behaviour: insights from the Mediterranean bluefin tuna fishery', today. Congratulations Mohammadreza!!",
+        "images": [{
+           "url": "Assets/Images/Mohammadreza_Defense.jpg",
+           "alt": "Mohammadreza Defense",
+           "caption": "Congratulations Mohammadreza!!"
+        }]
+      },
+    {
+        "title": "Marina defends thesis",
+        "date": "December 12, 2024",
+        "content": "Marina Ehmke successfully defended her Bachelor's thesis, 'Does animal personality correlate with feeding behaviour in a Baltic amphipod', today. Congratulations Marina!!"
+    },
+    {
+        "title": "sARDINE second meeting",
+        "date": "Dec 2, 2024",
+        "content": "The sARDINE sDiv working group is having their second meeting at iDiv in Leipzig, Germany this week. Read more about the work <a href = 'https://www.idiv.de/wp-content/uploads/2025/03/meeting-report_PI_sARDINE-2docx.pdf'> here </a>.",
+        "images": [{
+           "url": "Assets/Images/sARDINE2_2024_Dec_group-picture-scaled.jpg",
+           "alt": "sARDINE 2 group photo",
+           "caption": "sARDINE 2 group photo at iDiv, Leipzig, Germany"
+        }]
+      },
+      {
+        "title": "Presenting at the European Tracking Network Symposium",
+        "date": "October 16, 2024",
+        "content": "Christopher Monk is presenting at the Europea Tracking Network Symposium in Mallorca, Spain. The talk will cover sARDINE related work on 'An interactive web-based application for creating synthetic multimodal fish movementto evaluatea and train machine-learning models' ."
+      }, 
+    {
+        "title": "Attending FishBase Symposium",
+        "date": "September 1, 2024",
+        "content": "Christopher Monk is attending the annual FishBase Symposium and FishBase Consortium meeting, held this year in Thessaloniki, Greece, at the Aristotle University of Thessaloniki."
+      },
+      {
+        "title": "Sam defends thesis",
+        "date": "July 18, 2024",
+        "content": "Samantha Juber successfully defended her Master's thesis, 'Comparing the performance of distributed acoustic sensing to traditional pasive acoustic monitoring for baleen whale conservation', today. Way to go Sam!!"
+      },
+    {
+        "title": "Nils Kreuter visits as guest",
+        "date": "June 18, 2024",
+        "content": "Nils Kreuter is visiting the Marine Behavioural Ecology group as a guest PhD student from the Australian National University. Nils has successfully acquired a Helmholtz Information and Data Science Academy (HIDA) exchange to support his visit. He will focus on building visualization and interactive data analysis tools for Australian acoustic telemetry datasets at the centre of his PhD work, and will be with us for 3 months."
+      },
+    {
+        "title": "Attending Digital Ocean Forum",
+        "date": "June 12, 2024",
+        "content": "Christopher Monk is in Brussels, Belgium on for the DTOTrack project. The prototype of the European Digital Twin of the Ocean will be presented at the event. The digital twin of animal movement in the North Sea will be embedded on this new platform."
+      },
+    {
+        "title": "sARDINE first meeting",
+        "date": "April 2, 2024",
+        "content": "The sARDINE sDiv working group is having their first meeting at iDiv in Leipzig, Germany this week. Read more about the work <a href = 'https://www.idiv.de/wp-content/uploads/2024/08/A_meeting-report_PI_sARDINE_14062024.pdf'> here </a>.",
+        "images": [{
+           "url": "Assets/Images/sARDINE1-2024.jpg",
+           "alt": "sARDINE 1 group photo",
+           "caption": "sARDINE 1 group photo at iDiv, Leipzig, Germany"
+        }]
+    },
+    {
+        "title": "New project: DTOTrack",
+        "date": "22 March, 2024",
+        "content": "The Marine Behavioural Ecology Group will be starting a new project: DTOTrack, to construct a prototype digital twin of the animal movement in the north sea. The project is funded by the Sustainable Blue Economy Partnership, includes 11 partners and will run until May 2027"
+      },
+    {
+        "title": "Joining the IFishMan Retreat",
+        "date": "October 16, 2023",
+        "content": "Christopher Monk is attending the 2nd International IFishMan workshop on Interdisciplinary Recreational Fisheries Science and Management, organized in Siggen, Germany"
+    },
+    {
+      "title": "Attending FishBase Symposium",
+      "date": "September 8, 2023",
+      "content": "Christopher Monk attended the annual FishBase Symposium and FishBase Consortium meeting, held this year in Tervuren, Belgium at the Royal Museum for Central Africa."
+    },
+    {
+        "title": "sARDINE project funded",
+        "date": "July 3, 2023",
+        "content": "The sDiv working group sARDINE hosted at iDiv, Leipzig, Germany has received funding to tackle the spatial trends in fish ethodiversity. The group, led by Christopher Monk, will devise new methods to quantify fish behavioural diversity from acoustic telemetry tracks and evaluate gradients in fish behavioural diversity from a collection of European telemetry datasets."
+    },
+    {
+      "title": "Attending ICFT 8",
+      "date": "June 19, 2023",
+      "content": "The Marine Biology Group attended the International Conference on Fish Telemetry 8 in Sete France from the 11-16 of June. We presented two posters, introducing a new software for visualizing <a href='https://christophermonk.fish/telemetryvisualizationicftjune2023_A0.pdf'>telemetry in 3d</a>, and covering our analysis of <a href='https://christophermonk.fish/codisotopesicftjune2023_A0.pdf'>cod diets and personality</a>."
+    },
+    {
+      "title": "Alkor cruise Al594",
+      "date": "May 30, 2023",
+      "content": "Christopher Monk joined the second leg of the AL594 cruise, onboard the research vessel Alkor, in the Baltic Sea. As a research group new to the Baltic Sea, this was a great opportunity to get some hands on experience in the ecosystem and evaluate several capture methods and study sites."
+    },
+    {
+      "title": "Theses projects available",
+      "date": "April 2, 2023",
+      "content": "Interested in doing a B.Sc. or M.Sc. thesis in the Marine Behavioural Ecology group? Data-driven projects on high-resolution fish behaviour, and lab-based behavioural experiments are currently available to start. In 2024 field based projects will also begin. Please <a href='mailto:cmonk@geomar.de'>get in touch</a> for more details."
+    },
+    {
+      "title": "Marie Ritter starts an internship",
+      "date": "March 1, 2023",
+      "content": "<a href='https://christophermonk.fish/Members.html'>Marie Ritter</a> has started a 6 week internship. The internship will cover data analysis of animal movement, acoustic telemetry fundamentals, and range testing in the field. Welcome Marie!"
+    }
+  ]

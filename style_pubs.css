@@ -23,48 +23,6 @@ html, body {
   overflow: hidden;
 }
 
-
-#nav-menu{
-  position: fixed;
-  top:1vw;
-  right:5vw;
-  width: 33vw;
-  height:6vw;  
-  z-index: 14;
-}
-
-#nav-menu ul {
-  position: relative;
-  display: flex;
-  top: calc((6vw - 5.5vh)/2);
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  z-index: 15;
-}
-
-#nav-menu li {
-  flex:1 ;
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(1.5vw);
-  line-height: 2vh;
-  margin: 2vh; 
-  text-align: right;
-}
-
-
-#nav-menu li a {
-  color: #fefefe; /* This will set the color of the text to the same color as the parent element */
-   text-decoration: none;
-}
-
-#nav-menu li:hover a {
-    color:  #81dee0; /*  This will create a gradient that goes from red to yellow */
-}
-
 .logo-container {
   position: fixed; 
   top: 0.5vw;
@@ -103,6 +61,49 @@ h2 {
   transition: background-position 0.5s ease-in-out;
 }
 
+/* Publication controls */
+.publication-controls {
+  position: relative;
+  margin-top: 9vw; /* Same as your csl-bib-body was */
+  padding: 20px 5%;
+  background: rgba(30, 30, 40, 0.8);
+  z-index: 1;
+}
+
+.search-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: rgba(40, 40, 50, 0.8);
+  color: white;
+  font-family: 'Hind';
+  min-width: 250px;
+}
+
+.filter-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top:16px;
+  border: none;
+  background: rgba(60, 60, 70, 0.8);
+  color: #ccc;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.filter-btn.active, .filter-btn:hover {
+  background: #00bcc2;
+  color: white;
+}
+
 .someText {
    font-family: 'Hind';
   font-size: max(calc(1vw),10px);
@@ -112,31 +113,110 @@ h2 {
 }
 
 .csl-bib-body{
-    margin-top: 9vw;
+    margin-top: 10px;
 }
-
-.csl-bib-body div {
-  margin-bottom: 20px;
- 
+.csl-bib-body {
+  margin-top: 0;
+  padding: 20px 5% 40px;
+  counter-reset: item;
 }
 
 .csl-bib-body > div {
-  font-family: 'Hind';
-  font-size: max(calc(1vw),10px);
-  color: #fefeffff;
-  padding-right: 30%;
-  padding-left: 5%;
-  
+  position: relative;
+  font-family: 'Hind', sans-serif;
+  font-size: clamp(14px, 1.1vw, 16px);
+  color: #fefeff;
+  padding: 18px 20px 18px 50px;
+  margin-bottom: 15px;
+  background: rgba(30, 30, 40, 0.7);
+  border-radius: 8px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  line-height: 1.6;
 }
 
-.csl-bib-body  {
-  counter-reset: item;
+.csl-entry:hover {
+  background: rgba(40, 40, 50, 0.9);
+  border-left: 3px solid #00bcc2;
+  transform: translateX(3px);
 }
 
 .csl-entry::before {
   counter-increment: item;
-  content: counter(item) ". ";
+  content: counter(item);
+  position: absolute;
+  left: 15px;
+  top: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #00bcc2;
+  background: rgba(0, 188, 194, 0.1);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+/* Title styling */
+.csl-entry i {
+  color: #ffffff;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Author names */
+.csl-entry {
+  font-weight: 300;
+}
+
+.csl-entry b, .csl-entry strong {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Journal names */
+.csl-entry i:first-of-type {
+  color: #80deea;
+  font-style: italic;
+}
+
+/* DOI links */
+.csl-entry a {
+  color: #48cae4;
+  text-decoration: none;
+  transition: color 0.3s;
+  border-bottom: 1px dotted rgba(72, 202, 228, 0.3);
+  word-break: break-all;
+}
+
+.csl-entry a:hover {
+  color: #00b4d8;
+  border-bottom: 1px solid rgba(0, 180, 216, 0.7);
+}
+
+/* Year in citations */
+.csl-entry .year {
+  color: #00bcc2;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .csl-bib-body > div {
+    padding: 15px 15px 15px 45px;
+    font-size: 14px;
+  }
+  
+  .csl-entry::before {
+    left: 10px;
+    top: 15px;
+  }
+  
+  .csl-bib-body > div {
+    padding-right: 15px;
+  }
 }
 
 a:link {
@@ -150,3 +230,4 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
+

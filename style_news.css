@@ -23,47 +23,6 @@ html, body {
 }
 
 
-#nav-menu{
-  position: fixed;
-  top:1vw;
-  right:5vw;
-  width: 33vw;
-  height:6vw;  
-  z-index: 14;
-}
-
-#nav-menu ul {
-  position: relative;
-  display: flex;
-  top: calc((6vw - 5.5vh)/2);
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  z-index: 15;
-}
-
-#nav-menu li {
-  flex:1 ;
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(1.5vw);
-  line-height: 2vh;
-  margin: 2vh; 
-  text-align: right;
-}
-
-
-#nav-menu li a {
-  color: #fefefe; /* This will set the color of the text to the same color as the parent element */
-   text-decoration: none;
-}
-
-#nav-menu li:hover a {
-    color:  #81dee0; /*  This will create a gradient that goes from red to yellow */
-}
-
 .logo-container {
   position: fixed; 
   top: 0.5vw;
@@ -103,98 +62,118 @@ h2 {
 }
 
 
+/* News Container */
 .parent-container {
-    margin-top: 9vw;
-    display:flex;
-  flex-direction: column;
+  margin-top: 9vw;
+  padding: 0 5% 40px;
 }
 
-.news-header{
- margin-top: 0%; 
-  font-family: 'Hind';
-  font-size: max(calc(1vw),16px) ;
-  font-weight: bold;
-  color: #81dee0;
-  padding-left: 5%;
-  align-self:start;
-}  
+.news-item {
+  position: relative;
+  font-family: 'Hind', sans-serif;
+  font-size: clamp(14px, 1.1vw, 16px);
+  color: #fefeff;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  background: rgba(30, 30, 40, 0.7);
+  border-radius: 8px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  line-height: 1.6;
+}
 
-.news-date{
- margin-top: -1%; 
-  font-family: 'Hind';
-  font-size: max(calc(1vw),16px) ;
-  font-weight: normal;
-  color: #fefeffff;
-  padding-left: 5%;
-  align-self:start;
+.news-item:hover {
+  background: rgba(40, 40, 50, 0.9);
+  border-left: 3px solid #00bcc2;
+  transform: translateX(3px);
+}
+
+/* News Header - Light blue and larger */
+.news-header {
+  color: #81dee0; /* Light blue */
+  font-weight: 600;
+  font-size: clamp(16px, 1.4vw, 18px); /* Slightly larger */
+  margin: 0 0 5px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* News Date - Distinct style */
+.news-date {
+  color: rgba(254, 254, 255, 0.7); /* Semi-transparent white */
+  font-weight: 300;
+  font-size: clamp(13px, 1vw, 15px);
+  margin: 0 0 12px 0;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+/* News Text */
+.news-text {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+.news-text a {
+  color: #48cae4;
+  text-decoration: none;
+  transition: color 0.3s;
+  border-bottom: 1px dotted rgba(72, 202, 228, 0.3);
+}
+
+.news-text a:hover {
+  color: #00b4d8;
+  border-bottom: 1px solid rgba(0, 180, 216, 0.7);
+}
+
+/* News Image Styles */
+.news-image-container {
+  margin: 15px 0;
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+}
+
+.news-image-container:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.news-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.news-image:hover {
+  transform: scale(1.02);
+}
+
+.news-image-caption {
+  font-size: 0.9em;
+  color: rgba(254, 254, 255, 0.7);
+  margin-top: 8px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .news-item {
+    padding: 15px;
+    font-size: 14px;
+  }
   
+  .parent-container {
+    padding: 0 3% 30px;
+  }
+
+  .news-image {
+    max-width: 100%;
+  }
 }
-
-.news-text{
-    margin-top: 0%; 
-  font-family: 'Hind';
-  font-size: max(calc(1vw),10px) ;
-  color: #fefeffff;
-  padding-right: 33%;
-  padding-left: 5%;
-  align-self:start;
-}
-
-.twitter-parent{
-  max-height: 100vh; /* adjust this value to set the maximum height of the parent element */
-  overflow-y: scroll;
-}
-
-.twitter-timeline {
-  position: fixed;
-  left: 70vw;
-  width: 25vw;
-  top: 9vw;
-  height: 100vh;
-  transform: scale(0.8);
-  border-radius: 10px;
-  transform-origin: top left;
-  overflow-y: scroll;
-  /* Width and height of the scrollbar */
-  scrollbar-width: thin;
-}
-
-.twitter-timeline::-webkit-scrollbar {
-  width: 10px;
-}
-
-.twitter-timeline::-webkit-scrollbar-thumb {
-  background-color:  #ffffff;
-  border-radius: 10px;
-}
-
-.twitter-timeline::-webkit-scrollbar-track {
-  background-color:#181821;
-  border-radius: 10px;
-}
-
-.twitter-timeline::-webkit-scrollbar-thumb:hover {
-  background-color: #2b2b38;
-}
-
-.twitter-timeline::-webkit-scrollbar-corner {
-  background-color: #ffffff;
-}
-
-a:link {
-  color: #48a5c4;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #80dee1;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-
-
 
 
 

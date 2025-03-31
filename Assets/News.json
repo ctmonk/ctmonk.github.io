@@ -28,7 +28,7 @@
         "content": "The Marine Behavioural Ecology Lab had their annual Christmas party today, enjoying the Kiel Christmas markets",
         "images": [{
            "url": "Assets/Images/Christmas_party_2024.jpg",
-           "alt": "Christmas part 2024 group photo",
+           "alt": "Christmas party 2024 group photo",
            "caption": "Winter weather at the Kiel Christmas markets"
         }]
       },  
@@ -38,7 +38,7 @@
         "content": "Mohammadreza Hemmati successfully defended his Master's thesis, 'A Quantitative assessment of an exploration-exploitation framework to predict at-sea fisher social behaviour: insights from the Mediterranean bluefin tuna fishery', today. Congratulations Mohammadreza!!",
         "images": [{
            "url": "Assets/Images/Mohammadreza_defense.jpg",
-           "alt": "Mohammadreza Defense",
+           "alt": "Mohammadreza Defence",
            "caption": "Congratulations Mohammadreza!!"
         }]
       },
@@ -60,7 +60,7 @@
       {
         "title": "Presenting at the European Tracking Network Symposium",
         "date": "October 16, 2024",
-        "content": "Christopher Monk is presenting at the Europea Tracking Network Symposium in Mallorca, Spain. The talk will cover sARDINE related work on 'An interactive web-based application for creating synthetic multimodal fish movementto evaluatea and train machine-learning models' ."
+        "content": "Christopher Monk is presenting at the European Tracking Network Symposium in Mallorca, Spain. The talk will cover sARDINE related work on 'An interactive web-based application for creating synthetic multimodal fish movementto evaluatea and train machine-learning models' ."
       }, 
     {
         "title": "Attending FishBase Symposium",
@@ -70,7 +70,7 @@
       {
         "title": "Sam defends thesis",
         "date": "July 18, 2024",
-        "content": "Samantha Juber successfully defended her Master's thesis, 'Comparing the performance of distributed acoustic sensing to traditional pasive acoustic monitoring for baleen whale conservation', today. Way to go Sam!!"
+        "content": "Samantha Juber successfully defended her Master's thesis, 'Comparing the performance of distributed acoustic sensing to traditional passive acoustic monitoring for baleen whale conservation', today. Way to go Sam!!"
       },
     {
         "title": "Nils Kreuter visits as guest",
@@ -94,8 +94,8 @@
     },
     {
         "title": "New project: DTOTrack",
-        "date": "22 March, 2024",
-        "content": "The Marine Behavioural Ecology Group will be starting a new project: DTOTrack, to construct a prototype digital twin of the animal movement in the north sea. The project is funded by the Sustainable Blue Economy Partnership, includes 11 partners and will run until May 2027"
+        "date": "March 22, 2024",
+        "content": "The Marine Behavioural Ecology Group will be starting a new project: DTOTrack, to construct a prototype digital twin of the animal movement in the north sea. The project is funded by the Sustainable Blue Economy Partnership, includes 11 partners and will run until May 2027."
       },
     {
         "title": "Joining the IFishMan Retreat",

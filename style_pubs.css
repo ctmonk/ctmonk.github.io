@@ -177,7 +177,7 @@ h2 {
 }
 
 /* Journal names */
-.csl-entry i:first-of-type {
+.journal-title {
   color: #80deea;
   font-style: italic;
 }

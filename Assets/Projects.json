@@ -1,0 +1,60 @@
+[
+    {
+      "title": "DTOTrack",
+      "subtitle": "Building a prototype digital twin of animal movement in the North Sea",
+      "status": "ongoing",
+      "date": "2024- 2027",
+      "description": "Digital Twins (DT) can support our understanding of animal movements. They are digital counterparts to physical objects or phenomena and can play a key role in learning more about the functioning of our marine ecosystems, exploring future scenarios and supporting decision-making and policy development. The study of animal movements is currently undergoing a big data revolution and there is now enough data to create a prototype DT. Using acoustic telemetry, satellite tags and archival tags, a wealth of data is now being obtained on the movements of animals underwater and individual animals can be tracked for years. Recently, significant investment has been made in the creation of a European Digital Twin of the Ocean (DTO), but the movements of fish and marine mammals have not yet been integrated into a DT. The DTO-Track project, which involves members from eight countries around the North Sea, will develop a prototype DT of the North Sea for animal movements. It will be based on step-selection modelling and embedded in an interactive 3D platform. The project will utilise the European Tracking Network (ETN) database and other existing European DTO infrastructures such as EDITO-Infra to support the development of the DT. In addition, DTO-Track will coordinate the tracking of highly migratory species and provide new data for the DT, as well as mapping species movements and marine trends in the North Sea to identify overlaps. This means tagging key species such as cod and mackerel and installing new telemetry receivers in key locations in the North Sea to fill data gaps. The DTO-Track project could have a lasting impact on the environment, economy and society by developing plans related to marine spatial planning, fisheries regulations, offshore development and energy and development policy in the North Sea.",
+      "funding": [{
+            "source": "sDiv Synthesis Centre",
+            "url": "https://bluepartnership.eu/"
+      }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "url": "Assets/Images/dtotrack-logo_v2.png",
+          "alt": "DTOTrack logo",
+          "caption": "DTOTrack logo"
+        },
+        {
+          "type": "image",
+          "url": "Assets/Images/VisCapture3.png",
+          "alt": "3D visualization of fish movement",
+          "caption": "3d visualization of fish movement"
+        }
+      ],
+      "links": [
+        {
+          "text": "Read more about the project",
+          "url": "https://www.europeantrackingnetwork.org/en/dtotrack"
+        }
+      ]
+    },
+    {
+      "title": "sARDINE",
+      "subtitle": "Spatial Trends in Fish Ethodiversity",
+      "status": "ongoing",
+      "date": "2024 - present",
+      "funding": [{
+            "source": "sDiv Synthesis Centre",
+            "url": "https://www.idiv.de/research/sdiv/"
+      }
+      ],
+      "description": "Most ecological processes involve behaviour, yet behavioural biodiversity (i.e. “ethodiversity”), is essentially unstudied. sARDINE is a working group hosted at the sDiv Synthesis Centre at iDiv, the German Centre for Integrative Biodiversity Research Halle-Jena-Leipzig.  sARDINE will establish quantitative methods to evaluate ethodiversity, and synthesise high-resolution fish movement datasets to test whether classic spatial patterns of biodiversity (latitudinal gradients and species-area relationships) apply to ethodiversity and whether harvest affects these patterns. Our findings could impact optimal policies for biodiversity protection and our perception of biodiversity.",
+      "media": [
+        {
+          "type": "image",
+          "url": "Assets/Images/MainFigure.png",
+          "alt": "sARDINE hypotheses",
+          "caption": "sARDINE hypotheses and available acoustic telemetry datasets"
+        }
+      ],
+      "links": [
+        {
+          "text": "Read meeting reports",
+          "url": "https://www.idiv.de/research/sdiv/working-groups/sardine/"
+        }
+      ]
+    }
+  ]

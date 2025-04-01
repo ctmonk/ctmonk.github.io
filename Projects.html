@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+  </style>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/xl-icon" href="LogoBlack.svg" sizes="32x32">
+    <title>MarBehEco_Projects</title>
+    <link rel="stylesheet" href="style_projects.css">
+    <link rel="stylesheet" href="style_navbar.css">
+  </head>
+
+  <body>
+    <div class="header-bg"></div>
+  
+    <div id="projects-page">
+      <div class="logo-container">
+        <img src="LogoLight.svg" alt="Logolight" id="logolight">
+      </div>
+      <h2>Projects</h2>
+      
+      <div class="projects-parent-container">
+        <div id="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ongoing">Ongoing</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <div id="projects-container"></div>
+      </div>
+    </div>
+    
+    <div id="navbar-container"></div>
+  
+    <script src="script_projects_fetch.js"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>

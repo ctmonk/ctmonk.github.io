@@ -4,6 +4,7 @@ function loadNavbar() {
     { label: 'Home', href: 'index.html' },
     { label: 'News', href: 'News.html' },
     { label: 'About', href: 'About.html' },
+    { label: 'Projects', href: 'Projects.html' },
     { label: 'Members', href: 'Members.html' },
     { label: 'Publications', href: 'Publications.html' },
     { label: 'Visualizations', href: 'Visualizations.html' },

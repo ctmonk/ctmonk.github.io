@@ -1,0 +1,125 @@
+{
+    "current": [
+      {
+        "name": "Christopher Monk",
+        "role": "PI",
+        "photo": "Assets/Member_Photos/Christopher_Monk_Photo.jpg",
+        "focus": "Fish behavioural ecology, applied fisheries science, social-ecological systems",
+        "links": [
+          {"type": "email", "url": "mailto:cmonk@geomar.de"},
+          {"type": "cv", "url": "https://drive.google.com/file/d/15rdUvgJaYFi69Tg897SVsnyD_VO2g6Tz/view"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=JOc_-iQAAAAJ&hl=en"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Christopher-Monk-3"}
+        ]
+      },
+      {
+        "name": "Felix Mittermayer-Schmittmann",
+        "role": "Scientist",
+        "photo": "Assets/Member_Photos/FelixMittermayer.jpg",
+        "focus": "Fish biology, movement ecology, climate change ecology, fish early life stages",
+        "links": [
+          {"type": "email", "url": "mailto:fmittermayer@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=mhjVeHkAAAAJ&hl=en"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Felix-Mittermayer"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/felix-mittermayer-19b14b44/"}
+        ]
+      },
+      {
+        "name": "Hanna Rudnick",
+        "role": "Scientific assistant",
+        "photo": "Assets/Member_Photos/HannaRudnick.jpg",
+        "focus": "Fish aging methods, otolith microchemistry",
+        "links": [
+          {"type": "email", "url": "mailto:hrudnick@geomar.de"},
+          {"type": "cv", "url": "https://drive.google.com/file/d/1JIEHMCFD27F7OTYKRYiyikqtf_Suq8qR/view"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?hl=de&view_op=list_works&gmla=AL3_ziia3o80UbwbfSzwbQyS34KSXX7er7DxLPDSz0-pUXNYFHRhMYK3MKHuE_B-V8zF_Pbj2H_MnJs3chA2CM0cplaOBD0oU1Y&user=N2SwFAYAAAAJ"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Hanna-Rudnick"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/hanna-rudnick-01397233a"}
+        ]
+      },
+      {
+        "name": "Pina Hentschel",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/PinaHentschel.jpeg",
+        "focus": "Fish behavioural ecology, movement ecology, great hammerheads",
+        "links": [
+          {"type": "email", "url": "mailto:pina.hentschel@stu.uni-kiel.de"},
+          {"type": "cv", "url": "https://drive.google.com/file/d/1_-PXnHeKHZrHNaCEhuXdUzAJlIeEDtNt/view"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?hl=de&view_op=list_works&gmla=AL3_zihOo93zGILTU9N6lMgOSRI3HOryqhn-lz8PwMblwBz4Bz8xmSyM-wnVhm6COlZHitqD_zf5XMISnIwyrRZrY60Hbici6iY&user=UmJT-PIAAAAJ"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Pina-Hentschel-4"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/pina-hentschel-b65a8b2aa/"}
+        ]
+      },
+      {
+        "name": "Fenja-Marie Möller",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/FenjaMarieMoeller.JPEG",
+        "focus": "Marine ecology, fish movement patterns, acoustic telemetry, scientific diving",
+        "links": [
+          {"type": "email", "url": "mailto:stu241552@mail.uni-kiel.de"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?user=5UdNSowAAAAJ&hl=de"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Fenja-Marie-Moeller"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/fenja-marie-m%C3%B6ller-929a7a2a9/"}
+        ]
+      },
+      {
+        "name": "Georgia Avgerinou",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.jpg",
+        "focus": "Fish behavioural ecology, acoustic telemetry, animal social networks",
+        "links": [
+          {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"}
+        ]
+      },
+      {
+        "name": "Anne Eilrich",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/AnneEilrich.JPG",
+        "focus": "Baltic Sea harbour porpoises, passive acoustic monitoring, scientific diving",
+        "links": [
+          {"type": "email", "url": "mailto:aeilrich@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?user=wtLC3iYAAAAJ&hl=de"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Anne-Eilrich"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/anne-eilrich-0896a2339"}
+        ]
+      }
+    ],
+    "past": [
+    {
+        "name": "Mohammadreza Hemmati",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/Mohammadreza.jpg",
+        "focus": "Socio-ecological systems, Fisher behaviour",
+        "end_year": "2024",
+        "links": [
+        {"type": "email", "url": "mailto:stu237954@mail.uni-kiel.de"},
+        {"type": "researchgate", "url": "https://www.researchgate.net/profile/Mohammadreza-Hemmati"},
+        {"type": "linkedin", "url": "https://www.linkedin.com/in/mohammadreza-hemmati-he-him-2859a010b/"}
+        ]
+    },
+    {
+        "name": "Samantha Juber",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/Sam_Juber_Photo.jpg",
+        "focus": "Passive acoustic monitoring, Cetaceans",
+        "end_year": "2024",
+        "links": [
+        {"type": "email", "url": "mailto:samanthacjuber@gmail.com"},
+        {"type": "linkedin", "url": "https://www.linkedin.com/in/samantha-juber-15568230/"}
+        ]
+    },
+    {
+        "name": "Marie Ritter",
+        "role": "Intern",
+        "photo": "Assets/Member_Photos/MarieRitter.jpg",
+        "focus": "Fish behavioural ecology, fish cognition",
+        "end_year": "2023",
+        "links": [
+        {"type": "email", "url": "mailto:marie94ritter@gmail.com"},
+        {"type": "cv", "url": "https://drive.google.com/file/d/1pT8Rx09yxS9oDQfVXPIGobN35ZPW4tCa/view"},
+        {"type": "researchgate", "url": "https://www.researchgate.net/profile/Marie-Ritter-3"},
+        {"type": "linkedin", "url": "https://www.linkedin.com/in/marie-ritter-793631170/"}
+        ]
+    }
+    ]
+  }

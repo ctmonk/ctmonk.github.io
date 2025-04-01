@@ -1,5 +1,5 @@
 // Load members from JSON file
-fetch('Assets/members.json')
+fetch('Assets/Members.json')
   .then(response => response.json())
   .then(data => {
     const currentContainer = document.getElementById('current-members');

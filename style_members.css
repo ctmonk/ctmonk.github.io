@@ -381,7 +381,7 @@ h2 {
   }
   
   .member-photo-container {
-    height: clamp(250px, 60vw, 300px);
+    height: clamp(360px, 60vw, 420px);
   }
   
   .member-name {

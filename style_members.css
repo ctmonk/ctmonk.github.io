@@ -68,11 +68,11 @@ h2 {
 
 /* Dropdown Filter Styles */
 .filter-dropdown {
-  position: flex;
-  top: 9vw; /* Matches header height */
+  position: relative;
+  top: 2vw;
   display: inline-block;
-  margin: 5vw 0 0 9vw; /* Aligns with your header content */
-  z-index: 8; /* Below header but above content */
+  margin: clamp(20px, 2vw, 32px) 0 0 clamp(7vw, 9vw, 11vw);
+  z-index: 8;
   background-color: #181821;
   padding: 10px 0;
 }
@@ -147,7 +147,7 @@ h2 {
 .members-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 clamp(20px, 3vw, 40px) clamp(40px, 5vw, 80px);
+  padding: 0 clamp(10px, 3vw, 40px) clamp(40px, 5vw, 80px);
 }
 
 /* Section Headings */
@@ -178,9 +178,9 @@ h2 {
 /* Members Grid Layout */
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
-  gap: clamp(20px, 3vw, 40px);
-  margin-top: clamp(20px, 4vw, 200px);
+  grid-template-columns: repeat(auto-fill, clamp(320px, 20vw, 450px));
+  gap: clamp(20px, 2.5vw, 40px);
+  margin-top: clamp(20px, 3vw, 60px);
 }
 
 /* Member Cards */
@@ -227,7 +227,7 @@ h2 {
 /* Member Photo - Responsive sizing */
 .member-photo-container {
   width: 100%;
-  height: clamp(300px, 35vw, 500px);
+  height: clamp(320px, 20vw, 450px);
   overflow: hidden;
   display: flex;
   align-items: flex-start;
@@ -236,8 +236,8 @@ h2 {
 .member-photo {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: cover; /* Keep cover to fill the space */
+  object-position: center top; /* Keep focus on top part of image */
   transition: transform 0.5s ease;
 }
 
@@ -248,12 +248,14 @@ h2 {
 /* Member Info */
 .member-info {
   padding: clamp(15px, 1.5vw, 25px);
-  flex-grow: 1;
+  padding-bottom: clamp(60px, 6vw, 80px);
+  flex-grow: 1; 
+  position: relative;
 }
 
 .member-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: min(1.6rem, calc(0.7em + 0.4vw)); /* Responsive base size */
+  font-size: clamp(0.8rem, 1.2vw, 1.1rem); /* Responsive base size */
   font-weight: bold;
   color: #fefeff;
   margin-bottom: clamp(5px, 0.5vw, 8px);
@@ -278,7 +280,7 @@ h2 {
 
 .member-role {
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+  font-size: clamp(0.85rem, 0.9vw, 1.1rem);
   color: #81dee0;
   margin-bottom: clamp(10px, 1vw, 15px);
   font-weight: bold;
@@ -286,7 +288,7 @@ h2 {
 
 .member-focus {
   font-family: 'Hind', sans-serif;
-  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+  font-size: clamp(0.85rem, 0.9vw, 1.1rem);
   line-height: 1.6;
   color: rgba(254, 254, 255, 0.95);
   margin-bottom: clamp(15px, 1.5vw, 20px);
@@ -302,7 +304,9 @@ h2 {
 .member-links {
   display: flex;
   gap: clamp(10px, 1vw, 15px);
-  margin-top: clamp(10px, 1vw, 15px);
+  position: absolute;
+  bottom: clamp(15px, 1.5vw, 25px);
+  left: clamp(15px, 1.5vw, 25px);
 }
 
 .member-link {
@@ -347,7 +351,19 @@ h2 {
 
 /* Adjust member info padding to accommodate badge */
 .past-member .member-info {
-  padding-bottom: 40px;
+  padding: clamp(15px, 1.5vw, 25px);
+  padding-bottom: clamp(60px, 6vw, 70px); /* Add extra padding at bottom for links */
+  flex-grow: 1;
+  position: relative;
+}
+
+
+.past-member .member-links {
+  display: flex;
+  gap: clamp(10px, 1vw, 15px);
+  position: absolute;
+  bottom: clamp(15px, 1.5vw, 25px);
+  left: clamp(15px, 1.5vw, 25px);
 }
 
 
@@ -403,5 +419,22 @@ h2 {
     font-size: min(1.4rem, calc(1rem + 0.5vw));
     transform: scaleX(calc(1 - 0.1 * (100vw - 320px) / (1024 - 320)));
     transform-origin: left center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+  }
+  
+  .member-photo-container {
+    height: clamp(250px, 18vw, 400px);
+  }
+}
+
+@media (max-width: 992px) {
+  .member-card {
+    transform: scale(0.95);
+    transform-origin: top left;
   }
 }

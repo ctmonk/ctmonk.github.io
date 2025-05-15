@@ -25,6 +25,17 @@
         ]
       },
       {
+        "name": "Natalie Klinard",
+        "role": "Post-doctoral researcher",
+        "photo": "Assets/Member_Photos/NatalieKlinard.png",
+        "focus": "Fish movement ecology, fisheries management, causal inference",
+        "links": [
+          {"type": "email", "url": "mailto:nklinard@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=bb1kpu4AAAAJ&hl=en&oi=ao"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Natalie-Klinard"}
+        ]
+      },
+      {
         "name": "Hanna Rudnick",
         "role": "Scientific assistant",
         "photo": "Assets/Member_Photos/HannaRudnick.jpg",

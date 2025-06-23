@@ -1,0 +1,33 @@
+{
+  "id": "post1",
+  "title": "We're now 'hearing' from Helgoland!",
+  "author": "<a href = '/Members.html'>Georgia Avgerinou</a>",
+  "date": "2025-06-20",
+  "category": "Fieldwork",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "We have just installed the first acoustic telemetry array in the German North Sea! Last week, our team spent several days on Helgoland Island. We started with assembling the receivers on land, before heading out by boat to deploy them. Once in place, we tested the array’s acoustic range. The receivers are now active in MarGate, an underwater research area MarGate on the north side of the island, operated by the Alfred Wegener Institute."
+    },
+    {
+      "type": "image",
+      "src": "/Assets/Images/Helgoland_Receiver_Layout.jpeg",
+      "alt": "Acoustic telemetry receivers prepared for deployment",
+      "caption": "16 acoustic receivers laid out at the AWI dive centre on Helgoland before deployment in the North Sea"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our next step is fish tagging, planned for later this year, and we will track a community of resident species. Stay tuned!"
+    },
+    {
+      "type": "image",
+      "src": "/Assets/Images/Lange_Anna.jpeg",
+      "alt": "View from Helgoland",
+      "caption": "Working in Helgoland also brings some nice views"
+    },
+    {
+      "type": "paragraph",
+      "text": "More info about the project can be found <a href = '/Projects.html'> here </a>."
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 class ModernSidebar {
   constructor() {
     this.navItems = [
-      { label: 'Home', href: 'index.html' },
-      { label: 'News', href: 'News.html' },
-      { label: 'About', href: 'About.html' },
-      { label: 'Projects', href: 'Projects.html' },
-      { label: 'Members', href: 'Members.html' },
-      { label: 'Publications', href: 'Publications.html' },
-      { label: 'Visualizations', href: 'Visualizations.html' },
-      { label: 'Contact', href: 'Contact.html' }
+      { label: 'Home', href: '/index.html' },
+      { label: 'News', href: '/News.html' },
+      { label: 'Blog', href: '/Blog.html' },
+      { label: 'About', href: '/About.html' },
+      { label: 'Projects', href: '/Projects.html' },
+      { label: 'Members', href: '/Members.html' },
+      { label: 'Publications', href: '/Publications.html' },
+      { label: 'Visualizations', href: '/Visualizations.html' },
+      { label: 'Contact', href: '/Contact.html' }
     ];
 
     // Use 'index.html' as default if the path is just '/'
@@ -64,8 +65,8 @@ class ModernSidebar {
 
     // Add logo
     const logo = document.createElement('img');
-    logo.src = 'LogoLight.svg'; // Ensure this path is correct
-    logo.alt = 'Company Logo'; // More descriptive alt text
+    logo.src = '/LogoLight.svg'; // Ensure this path is correct
+    logo.alt = 'Lab Logo'; // More descriptive alt text
     logo.className = 'sidebar-logo';
     this.sidebarPanel.appendChild(logo);
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+    </style>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MarBehEco - Blog</title>
+    <link rel="stylesheet" href="style_blog.css">
+    <link rel="stylesheet" href="style_navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/xl-icon" href="LogoBlack.svg" sizes="32x32">
+    <script src="https://kit.fontawesome.com/49a1d77a98.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Consistent Header Structure -->
+    <div class="header-bg"></div> 
+    <div class="logo-container">
+      <img src="LogoLight.svg" alt="Logolight" id="logolight">
+    </div>
+    <h2>Blog</h2> <!-- Changed Title -->
+      
+    <!-- Main Blog Content Area -->
+    <div class="blog-parent-container"> 
+      <!-- Optional: Add filtering/sorting later if needed -->
+      <!-- <div id="blog-filter">
+        <button class="filter-btn active" data-filter="all">All Posts</button>
+        <button class="filter-btn" data-filter="category1">Category 1</button> 
+      </div> -->
+      
+      <div id="blog-posts-container">
+        <!-- Blog posts will be loaded here dynamically by JavaScript -->
+        
+
+      </div>
+    </div>
+    
+    <!-- Consistent Navbar -->
+    <div id="navbar-container"></div>
+  
+    <!-- Script for fetching blog content (You'll need to create this) -->
+    <script src="script_blog_fetch.js"></script> 
+    <!-- Script for loading the navbar -->
+    <script src="navbar.js"></script> 
+  </body>
+</html>

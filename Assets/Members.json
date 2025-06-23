@@ -93,6 +93,15 @@
           {"type": "researchgate", "url": "https://www.researchgate.net/profile/Anne-Eilrich"},
           {"type": "linkedin", "url": "https://www.linkedin.com/in/anne-eilrich-0896a2339"}
         ]
+      },
+        {
+        "name": "Peer Krause",
+        "role": "Intern",
+        "photo": "Assets/Member_Photos/PeerKrause.JPG",
+        "focus": "Acoustic Telemetry, Data Management, Receiver Deployment",
+        "links": [
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/peer-krause-309168293"}
+        ]
       }
     ],
     "past": [

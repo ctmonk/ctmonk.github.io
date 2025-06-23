@@ -1,0 +1,278 @@
+html, body {
+    font-size: 16px;
+    background-color: #181821;
+    color: #fefeff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.header-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vw;
+    background: linear-gradient(to bottom, #181821 80%, transparent);
+    z-index: 9;
+    overflow: hidden;
+}
+
+  .logo-container {
+    position: fixed; 
+    top: 0.5vw;
+    left: 0vw;
+    width: 7vw;
+    height: 7vw;
+    background:transparent;
+    z-index:12;
+  }
+  
+  .logo-container img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+h2 {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 8vw;
+    height: 8vw;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    margin-top: 1.5vw;
+    padding: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #00bcc2, #ffffff);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.5s ease-in-out;
+}
+
+a:link {
+  color: #48a5c4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #80dee1 !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* --- Full Blog Post Container --- */
+.blog-parent-container {
+    margin-top: calc(8vw + 20px);
+    padding: 0 40px 80px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post-full {
+  background: rgba(30, 30, 40, 0.7);
+  border-radius: 12px;
+  padding: clamp(30px, 4vw, 50px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative; /* Needed for the pseudo-element border */
+  transition: all 0.3s ease; /* Added for smoother transform */
+}
+
+/* Pseudo-element for the gradient border, similar to member cards */
+.blog-post-full::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, rgba(0, 188, 194, 0.3), rgba(0, 188, 194, 0)) border-box;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.blog-post-full:hover {
+  transform: translateY(-5px); /* Pop effect on hover */
+  box-shadow: 0 15px 30px rgba(0, 188, 194, 0.2); /* Enhanced shadow for glow */
+}
+
+.blog-post-full:hover::before {
+  border: 1px solid rgba(0, 188, 194, 0.5);
+}
+
+.blog-post-full h1 { /* Changed from .blog-post-full-title to h1 as per script */
+    font-size: clamp(28px, 3vw, 38px);
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #fefeff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    /* Added gradient text to title for consistency */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #00bcc2, #ffffff);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.blog-post-full:hover h1 {
+    background-position: 0%; /* Animate gradient on hover */
+}
+
+
+.meta { /* Changed from .blog-post-full-meta to .meta as per script */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    font-size: 15px;
+    color: rgba(254, 254, 255, 0.7);
+    margin-bottom: 28px;
+    font-family: 'Montserrat', sans-serif; /* Changed font to Montserrat for consistency */
+    font-weight: 500; /* Added font-weight for consistency */
+}
+
+/* Removed meta-item and svg styling as icons are not used in the current script output */
+
+.blog-post-full-image-container {
+    width: 100%;
+    max-height: 420px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 24, 33, 0.8);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.blog-post-full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 10px;
+}
+
+.content { /* Changed from .blog-post-full-content to .content as per script */
+    font-family: 'Hind', sans-serif;
+    font-size: clamp(0.95rem, 1.1vw, 1.1rem); /* Responsive font sizing */
+    color: rgba(254, 254, 255, 0.95); /* Adjusted color for better contrast */
+    line-height: 1.8;
+    margin-top: 10px;
+    font-weight: 500; /* Added font-weight for consistency */
+}
+
+.content p {
+    margin-bottom: 1.5em;
+}
+
+.content figure { /* Styling for figures (images/videos with captions) */
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content img,
+.content video {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block; /* Ensures proper centering */
+    margin: 0 auto; /* Centers the image/video */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+    border: 1px solid rgba(129, 222, 224, 0.1); /* Subtle border */
+    transition: transform 0.5s ease; /* Added for image scaling on hover */
+}
+
+.content figure:hover img, /* Apply hover to parent figure to scale image */
+.content figure:hover video {
+  transform: scale(1.03); /* Slight scale up on hover */
+}
+
+.content figcaption {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    font-size: clamp(0.8rem, 0.9vw, 1rem);
+    color: rgba(129, 222, 224, 0.8); /* Distinct color for captions */
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+    .blog-parent-container {
+        padding: 0 20px 60px;
+    }
+    .blog-post-full {
+        padding: 30px 20px 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-bg, h2 {
+        height: 10vw;
+        min-height: 55px;
+    }
+    .logo-container {
+        width: 9vw;
+        height: 9vw;
+        min-width: 45px;
+        min-height: 45px;
+    }
+    h2 {
+        left: 10vw;
+        width: calc(100% - 11vw);
+    }
+    .blog-parent-container {
+        margin-top: calc(10vw + 15px);
+        padding: 0 10px 40px;
+    }
+    .blog-post-full {
+        padding: 18px 5px 25px;
+    }
+    .blog-post-full h1 {
+        font-size: clamp(22px, 6vw, 30px);
+    }
+    .meta {
+        font-size: 14px;
+    }
+    .content {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-parent-container {
+        padding: 0 2vw 20px;
+    }
+    .blog-post-full {
+        padding: 10px 2vw 15px;
+    }
+    .blog-post-full h1 {
+        font-size: 20px;
+    }
+    .meta {
+        font-size: 12px;
+    }
+    .content {
+        font-size: 15px;
+    }
+}

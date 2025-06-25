@@ -4,8 +4,8 @@
 :root {
   --sidebar-width: 280px;
   --sidebar-bg: rgba(24, 24, 33, 0.98);
-  --sidebar-text-color: #f0f0f0; /* Slightly softer white */
-  --sidebar-accent-color: #81dee0;
+  --sidebar-text-color: #f0f0f0 !important; /* Slightly softer white */
+  --sidebar-accent-color: #81dee0 !important;
   --sidebar-accent-gradient: linear-gradient(to bottom, #00bcc2, #81dee0);
   --sidebar-hover-bg: rgba(129, 222, 224, 0.1);
   --hamburger-bg: rgba(30, 30, 40, 0.8); /* Slightly increased opacity */

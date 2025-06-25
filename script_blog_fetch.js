@@ -101,36 +101,3 @@ function createBlogPostCard(post) {
 }
 
 
-// --- Optional: Filter Logic (Example if you add filter buttons) ---
-/*
-function setupFiltering() {
-    const filterButtons = document.querySelectorAll('#blog-filter .filter-btn');
-    const postCards = document.querySelectorAll('#blog-posts-container .blog-post-card');
-
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // Update active button style
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-
-            const filterValue = button.dataset.filter; // e.g., 'all', 'fieldwork', 'lab-update'
-
-            // Filter cards
-            postCards.forEach(card => {
-                const cardCategory = card.dataset.category;
-                if (filterValue === 'all' || !cardCategory || cardCategory === filterValue) {
-                    card.style.display = 'block'; // Or 'grid', 'flex' depending on your layout needs
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        });
-    });
-}
-
-// Call setupFiltering() inside the DOMContentLoaded listener after fetchBlogPosts()
-// Make sure fetchBlogPosts populates the cards *before* setupFiltering is called,
-// or call setupFiltering within the .then() block of fetchBlogPosts after cards are added.
-*/
-
-// --- END OF FILE script_blog_fetch.js ---

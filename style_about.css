@@ -1,7 +1,7 @@
 html, body {
   font-size: 16px;
-   height: auto; /* This will set the height of the body element to be the same as the height of its content */
-    background-color:  #181821;
+  height: auto;
+  background-color:  #181821;
 }
 
 @font-face {
@@ -11,20 +11,26 @@ html, body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Hind';
+  src: url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .header-bg {
-  position: fixed; 
-  top: 0; /* this will align the top of the element with the top ofthe page */
-  left: 0; /* this will align the left of the element with the left of the page */
-  width: 100%; /* this will make the element as wide as the page */
-  height: 8vw; /* this will make the element as tall as the header */
-  background: linear-gradient(to bottom, #181821 80%, transparent); 
-  z-index: 9; /* this will make sure the element is behind the header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vw;
+  background: linear-gradient(to bottom, #181821 80%, transparent);
+  z-index: 9;
   overflow: hidden;
 }
 
 .logo-container {
-  position: fixed; 
+  position: fixed;
   top: 0.5vw;
   left: 0vw;
   width: 7vw;
@@ -40,19 +46,18 @@ html, body {
 }
 
 h2 {
-  
   position: fixed;
   width: 100%;
-  top:0;
-  left:8vw;
+  top: 0;
+  left: 8vw;
   height: 8vw;
   z-index: 10;
-   font-family: 'Montserrat', sans-serif;
-  font-size: 4vw;
-  margin-top:1.5vw;
- padding:  0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6vw;
+  margin-top: 0;
+  padding: 0;
   background-clip: text;
-   -webkit-background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #00bcc2, #ffffff);
@@ -61,95 +66,135 @@ h2 {
   transition: background-position 0.5s ease-in-out;
 }
 
-
-
 .parent-container {
     margin-top: 9vw;
     display: grid;
-  grid-template-areas: "blurb photo2"
-                       ;
-     grid-template-columns: 50% 50%;
+    grid-template-areas: "blurb photo2";
+    grid-template-columns: 1.1fr 0.9fr;
     grid-template-rows: auto;
-  align-items:start;
-    
+    align-items:start;
+    padding: 0 40px 80px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px; /* Increased gap for a cleaner, more spaced-out look */
 }
 
 #photo2 {
   display: flex;
   object-fit: cover;
-  width: min(auto, 35vw);
+  width: min(auto, 100%);
   max-height: 90vh;
   align-self: start;
   justify-self: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Added subtle shadow for depth */
 }
-
 
 #blurb {
-    margin-top: 0%; 
-  font-family: 'Hind';
-  font-size: max(calc(1vw),10px) ;
-  color: #fefeffff;
-  padding-right: 15%;
-  padding-left: 15%;
+  margin-top: 0;
+  font-family: 'Hind', sans-serif;
+  font-size: clamp(16px, 1.2vw, 19px); /* Slightly increased base font size for better readability */
+  color: #e0e0e0; /* Slightly lighter text for better contrast on dark background */
+  padding-right: 0;
+  padding-left: 0;
   align-self:start;
-  
+  line-height: 1.7; /* Increased line-height for improved readability */
 }
+
+#blurb p { /* Targeting paragraphs specifically for consistent spacing */
+    margin-bottom: 1em; /* Add space between paragraphs */
+}
+
+#blurb p:last-child {
+    margin-bottom: 0; /* No margin after the last paragraph */
+}
+
 
 #blurb   { grid-area: blurb }
 #photo2  { grid-area: photo2 }
 
-a:link {
-  color: #48a5c4;
+/* Specificity added for links within the blurb to avoid overriding navbar */
+#blurb a:link {
+  color: #00bcc2; /* Adjusted link color for better integration with gradient */
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline; /* Added subtle underline for better link visibility */
+  text-underline-offset: 0.2em; /* Spacing for underline */
+  transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
-a:visited {
-  color: #80dee1;
+#blurb a:visited {
+  color: #81dee0; /* Slightly different color for visited links */
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
-
-
-
-
-
-
-/*
-
-#menu-button {
-  width: 3.6vw;
-  height: 3vw;
-  position: fixed; 
-  top: 0vw; 
-  right: 3vw; 
-  margin-top: 4vw;
-  z-index: 12;
-  cursor: pointer;
- padding: 0;
-  border: none;
-  background: none;
+#blurb a:hover {
+    color: #ffffff; /* Brighter color on hover */
 }
 
-#menu-button:before, #menu-button:after {
-  content: "";
-  width: 3.6vw;
-  height: calc(0.2vw + 1px); 
-  background-color: #e5f8f9;
-  position: absolute;
-  left: 0;
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .parent-container {
+        grid-template-columns: 1fr;
+        padding: 0 25px 60px;
+        gap: 30px; /* Adjusted gap for smaller screens */
+    }
+
+    #photo2 {
+        width: 100%;
+        max-height: 50vh;
+        justify-self: stretch;
+        margin-bottom: 0; /* Gap is handled by parent container now */
+        order: -1;
+    }
+
+    #blurb {
+        font-size: clamp(16px, 4.5vw, 18px); /* Adjust font size for mobile */
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+     h2 {
+      font-size: 6vw;
+    }
 }
 
-#menu-button:before {
-  top: 0;
+@media (max-width: 768px) {
+    .parent-container {
+        padding: 0 20px 40px;
+        gap: 20px; /* Further adjusted gap for smaller screens */
+    }
+     h2 {
+      font-size: 8vw;
+      left: 10vw;
+    }
+    .logo-container {
+        width: 10vw;
+        height: 10vw;
+    }
+    #photo2 {
+        max-height: 40vh;
+    }
 }
 
-#menu-button:after {
-  top: 1vw;
+@media (max-width: 480px) {
+    .parent-container {
+        padding: 0 15px 30px;
+    }
+    #blurb {
+        font-size: 16px;
+    }
+     h2 {
+      font-size: 10vw;
+      left: 12vw;
+    }
+    .logo-container {
+        width: 12vw;
+        height: 12vw;
+    }
+    #photo2 {
+        max-height: 30vh;
+    }
 }
-
-#menu-button.active:before, #menu-button.active:after  {
-  background-color:#00bcc2;
-}
-*/

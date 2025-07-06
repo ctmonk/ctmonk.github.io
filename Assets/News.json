@@ -1,7 +1,19 @@
 [
   {
+        "title": "Kieler Woche Open Ship Day",
+        "date": "June 27, 2025",
+        "content": "The lab setup an educational booth at the Kieler Woche Open Ship Day, demonstrating how acoustic telemetry functions, and explaining the various ways we can study how fish behave in the sea. The ship was packed with visitors.",
+        "images": [
+            {
+           "url": "Assets/Images/2025OpenShipDay.jpg",
+           "alt": "2025 Open Ship Day",
+           "caption": "The lab at the Kieler Woche Open Ship Day 2025 (Natalie Klinard, Felix Mittermayer-Schmittmann, Chrisotpher Monk, Pina Hentschel and Fenja-Marie Möller)"
+           }
+        ]
+      },
+  {
         "title": "Fenja-Marie Möller ICFT Presentation",
-        "date": "June, 12 2025",
+        "date": "June 12, 2025",
         "content": "Fenja presented her M.Sc. thesis results at the International Conference on Fish Telemetry in Traverse City, Michigan. Her talk was titled 'Monitoring the Danish Straits using acoustic telemetry to understand how environmental drivers influence fish migrations in a major swimway'",
         "images": [
             {

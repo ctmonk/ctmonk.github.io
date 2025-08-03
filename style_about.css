@@ -18,8 +18,7 @@ html, body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 18vw; /* Increased height for longer fade */
-  min-height: 120px; /* Ensures enough fade on mobile */
+  height: min(8vw, 120px); /* Limit header fade height */
   background: linear-gradient(to bottom, #181821 80%, transparent 100%);
   z-index: 9;
   pointer-events: none;
@@ -30,8 +29,8 @@ html, body {
   position: fixed;
   top: 0.5vw;
   left: 0vw;
-  width: 7vw;
-  height: 7vw;
+  width: min(7vw, 70px);
+  height: min(7vw, 70px);
   background: transparent;
   z-index: 12;
 }
@@ -46,12 +45,12 @@ h2 {
   position: fixed;
   width: 100%;
   top: 0;
-  left: 8vw;
-  height: 8vw;
-  line-height: 8vw; /* Ensures text is vertically centered and predictable */
+  left: min(8vw, 80px);
+  height: min(8vw, 120px);
+  line-height: min(8vw, 120px);
+  font-size: min(6vw, 60px);
   z-index: 10;
   font-family: 'Montserrat', sans-serif;
-  font-size: 6vw;
   margin-top: 0;
   padding: 0;
   background-clip: text;
@@ -66,7 +65,7 @@ h2 {
 
 /* Main Container */
 .about-parent-container {
-  margin-top: 9vw;
+  margin-top: min(8vw, 120px); /* Match header height */
   padding: 0 40px 80px;
   max-width: 1600px;
   margin-left: auto;
@@ -133,6 +132,7 @@ h2 {
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
   .about-parent-container {
+    margin-top: min(13vw, 110px); /* Match header height */
     padding: 0 25px 60px;
   }
   .about-content {
@@ -148,23 +148,27 @@ h2 {
     font-size: clamp(16px, 4.5vw, 18px);
   }
   h2 {
-    font-size: 6vw;
+    height: min(13vw, 110px);
+    line-height: min(13vw, 110px);
+    font-size: min(7vw, 70px);
+    left: min(10vw, 90px);
+  }
+  .header-bg {
+    height: min(13vw, 110px);
+    min-height: 80px;
   }
 }
 
 @media (max-width: 768px) {
   h2 {
-    height: 12vw;
-    line-height: 12vw;
-    font-size: 10vw;
-    left: 12vw;
+    height: min(16vw, 100px);
+    line-height: min(16vw, 100px);
+    font-size: min(10vw, 60px);
+    left: min(12vw, 80px);
   }
   .about-parent-container {
-    margin-top: 12vw; /* Match header height exactly */
-  }
-  .about-parent-container {
+    margin-top: min(16vw, 100px); /* Match header height */
     padding: 0 25px 40px;
-    margin-top: 16vw; /* Add enough top margin for header */
   }
   .about-content {
     display: flex;
@@ -181,38 +185,34 @@ h2 {
     order: 1;
   }
   .header-bg {
-    height: 20vw;
+    height: min(16vw, 100px);
     min-height: 80px;
   }
 }
 
 @media (max-width: 480px) {
   h2 {
-    height: 14vw;
-    line-height: 14vw;
-    font-size: 12vw;
-    left: 14vw;
+    height: min(18vw, 80px);
+    line-height: min(18vw, 80px);
+    font-size: min(12vw, 40px);
+    left: min(14vw, 40px);
   }
   .about-parent-container {
-    margin-top: 15vw; /* Match header height exactly */
+    margin-top: min(18vw, 80px); /* Match header height */
     padding: 0 15px 30px;
   }
   #blurb {
     font-size: 16px;
   }
-  h2 {
-    font-size: 10vw;
-    left: 12vw;
-  }
   .logo-container {
-    width: 12vw;
-    height: 12vw;
+    width: min(14vw, 40px);
+    height: min(14vw, 40px);
   }
   .about-image img {
     max-height: 30vh;
   }
   .header-bg {
-    height: 24vw;
+    height: min(18vw, 80px);
     min-height: 60px;
   }
 }

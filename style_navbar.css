@@ -317,20 +317,14 @@
     justify-content: flex-start; /* Align content to top */
   }
   .nav-items-container {
-    gap: 4vw;
-    margin-top: 0;      /* Remove auto push */
-    margin-bottom: 0;   /* Remove excessive bottom space */
-    align-items: center; /* Center items horizontally */
-    min-height: 60vh;   /* Use more vertical space */
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    align-items: center !important;
+    min-height: 60vh;
   }
   .nav-item {
-    padding: 3vw 4vw;
-    font-size: clamp(18px, 5vw, 22px); /* Larger touch targets */
-    text-align: center; /* Center text */
-    align-self: center; /* Center each item */
-  }
-  .sidebar-logo {
-    margin: max(4vw, 20px) auto max(5vw, 30px) auto;
+    font-size: clamp(20px, 6vw, 26px); /* Larger minimum */
+    padding: 4vw 5vw;
   }
 }
 
@@ -343,14 +337,14 @@
     padding-bottom: 6vw;
   }
   .nav-items-container {
-    gap: 5vw;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    align-items: center !important;
     min-height: 60vh;
   }
   .nav-item {
-    padding: 4vw 5vw;
-    font-size: clamp(20px, 7vw, 24px);
-    text-align: center;
-    align-self: center;
+    font-size: clamp(22px, 8vw, 28px); /* Even larger minimum */
+    padding: 5vw 6vw;
   }
   .hamburger-btn {
     min-width: 40px;

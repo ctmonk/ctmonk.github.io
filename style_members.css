@@ -397,7 +397,11 @@ h2 {
   }
   
   .member-photo-container {
-    height: clamp(360px, 60vw, 420px);
+    height: clamp(500px, 80vw, 520px); /* Increased height for mobile */
+  }
+  
+  .member-card {
+    padding-bottom: 20px; /* Extra space at bottom */
   }
   
   .member-name {
@@ -412,9 +416,22 @@ h2 {
   .member-link {
     font-size: clamp(1.1rem, 5vw, 1.3rem);
   }
+
+  .member-photo {
+    object-position: center 30%; /* Crop upwards, show more lower part */
+  }
 }
 
 @media (max-width: 1024px) {
+  .member-photo-container {
+    height: clamp(350px, 30vw, 480px); /* Taller for large tablets/small laptops */
+  }
+  .member-photo {
+    object-position: center 20%; /* Crop upwards slightly */
+  }
+  .member-card {
+    padding-bottom: 28px;
+  }
   .member-name {
     font-size: min(1.4rem, calc(1rem + 0.5vw));
     transform: scaleX(calc(1 - 0.1 * (100vw - 320px) / (1024 - 320)));
@@ -426,9 +443,11 @@ h2 {
   .members-grid {
     grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
   }
-  
   .member-photo-container {
-    height: clamp(250px, 18vw, 400px);
+    height: clamp(300px, 22vw, 420px); /* Slightly taller for desktops */
+  }
+  .member-photo {
+    object-position: center 15%; /* Crop upwards a little */
   }
 }
 
@@ -436,5 +455,27 @@ h2 {
   .member-card {
     transform: scale(0.95);
     transform-origin: top left;
+  }
+}
+
+@media (max-width: 720px) {
+  .member-photo-container {
+    height: clamp(420px, 70vw, 600px); /* Taller for mid-size screens */
+  }
+  .member-card {
+    padding-bottom: 24px;
+  }
+  .member-photo {
+    object-position: center 25%; /* Crop upwards slightly */
+  }
+  .member-name {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+  }
+  .member-role,
+  .member-focus {
+    font-size: clamp(0.9rem, 3vw, 1rem);
+  }
+  .member-link {
+    font-size: clamp(1rem, 4vw, 1.2rem);
   }
 }

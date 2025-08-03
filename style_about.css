@@ -1,7 +1,7 @@
 html, body {
   font-size: 16px;
   height: auto;
-  background-color:  #181821;
+  background-color: #181821;
 }
 
 @font-face {
@@ -11,21 +11,18 @@ html, body {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Hind';
-  src: url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
-  font-weight: normal;
-  font-style: normal;
-}
 
+/* Header Styles */
 .header-bg {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 8vw;
-  background: linear-gradient(to bottom, #181821 80%, transparent);
+  height: 18vw; /* Increased height for longer fade */
+  min-height: 120px; /* Ensures enough fade on mobile */
+  background: linear-gradient(to bottom, #181821 80%, transparent 100%);
   z-index: 9;
+  pointer-events: none;
   overflow: hidden;
 }
 
@@ -35,8 +32,8 @@ html, body {
   left: 0vw;
   width: 7vw;
   height: 7vw;
-  background:transparent;
-  z-index:12;
+  background: transparent;
+  z-index: 12;
 }
 
 .logo-container img {
@@ -51,6 +48,7 @@ h2 {
   top: 0;
   left: 8vw;
   height: 8vw;
+  line-height: 8vw; /* Ensures text is vertically centered and predictable */
   z-index: 10;
   font-family: 'Montserrat', sans-serif;
   font-size: 6vw;
@@ -66,135 +64,155 @@ h2 {
   transition: background-position 0.5s ease-in-out;
 }
 
-.parent-container {
-    margin-top: 9vw;
-    display: grid;
-    grid-template-areas: "blurb photo2";
-    grid-template-columns: 1.1fr 0.9fr;
-    grid-template-rows: auto;
-    align-items:start;
-    padding: 0 40px 80px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 40px; /* Increased gap for a cleaner, more spaced-out look */
+/* Main Container */
+.about-parent-container {
+  margin-top: 9vw;
+  padding: 0 40px 80px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#photo2 {
-  display: flex;
-  object-fit: cover;
-  width: min(auto, 100%);
-  max-height: 90vh;
-  align-self: start;
-  justify-self: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Added subtle shadow for depth */
+.about-content {
+  display: grid;
+  grid-template-areas: "blurb about-image";
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-rows: auto;
+  align-items: start;
+  gap: 40px;
 }
 
 #blurb {
-  margin-top: 0;
+  grid-area: blurb;
   font-family: 'Hind', sans-serif;
-  font-size: clamp(16px, 1.2vw, 19px); /* Slightly increased base font size for better readability */
-  color: #e0e0e0; /* Slightly lighter text for better contrast on dark background */
-  padding-right: 0;
-  padding-left: 0;
-  align-self:start;
-  line-height: 1.7; /* Increased line-height for improved readability */
+  font-size: clamp(16px, 1.2vw, 19px);
+  color: #e0e0e0;
+  line-height: 1.7;
+  margin-top: 0;
 }
 
-#blurb p { /* Targeting paragraphs specifically for consistent spacing */
-    margin-bottom: 1em; /* Add space between paragraphs */
+#blurb p {
+  margin-bottom: 1em;
 }
-
 #blurb p:last-child {
-    margin-bottom: 0; /* No margin after the last paragraph */
+  margin-bottom: 0;
 }
 
-
-#blurb   { grid-area: blurb }
-#photo2  { grid-area: photo2 }
-
-/* Specificity added for links within the blurb to avoid overriding navbar */
 #blurb a:link {
-  color: #00bcc2; /* Adjusted link color for better integration with gradient */
+  color: #00bcc2;
   background-color: transparent;
-  text-decoration: underline; /* Added subtle underline for better link visibility */
-  text-underline-offset: 0.2em; /* Spacing for underline */
-  transition: color 0.3s ease; /* Smooth transition on hover */
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  transition: color 0.3s ease;
 }
-
 #blurb a:visited {
-  color: #81dee0; /* Slightly different color for visited links */
+  color: #81dee0;
   background-color: transparent;
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
-
 #blurb a:hover {
-    color: #ffffff; /* Brighter color on hover */
+  color: #ffffff;
+}
+
+.about-image {
+  grid-area: about-image;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-image img {
+  object-fit: cover;
+  width: min(auto, 100%);
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
-    .parent-container {
-        grid-template-columns: 1fr;
-        padding: 0 25px 60px;
-        gap: 30px; /* Adjusted gap for smaller screens */
-    }
-
-    #photo2 {
-        width: 100%;
-        max-height: 50vh;
-        justify-self: stretch;
-        margin-bottom: 0; /* Gap is handled by parent container now */
-        order: -1;
-    }
-
-    #blurb {
-        font-size: clamp(16px, 4.5vw, 18px); /* Adjust font size for mobile */
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-     h2 {
-      font-size: 6vw;
-    }
+  .about-parent-container {
+    padding: 0 25px 60px;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .about-image img {
+    width: 100%;
+    max-height: 50vh;
+    margin-bottom: 0;
+  }
+  #blurb {
+    font-size: clamp(16px, 4.5vw, 18px);
+  }
+  h2 {
+    font-size: 6vw;
+  }
 }
 
 @media (max-width: 768px) {
-    .parent-container {
-        padding: 0 20px 40px;
-        gap: 20px; /* Further adjusted gap for smaller screens */
-    }
-     h2 {
-      font-size: 8vw;
-      left: 10vw;
-    }
-    .logo-container {
-        width: 10vw;
-        height: 10vw;
-    }
-    #photo2 {
-        max-height: 40vh;
-    }
+  h2 {
+    height: 12vw;
+    line-height: 12vw;
+    font-size: 10vw;
+    left: 12vw;
+  }
+  .about-parent-container {
+    margin-top: 12vw; /* Match header height exactly */
+  }
+  .about-parent-container {
+    padding: 0 25px 40px;
+    margin-top: 16vw; /* Add enough top margin for header */
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-image {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #blurb {
+    order: 1;
+  }
+  .header-bg {
+    height: 20vw;
+    min-height: 80px;
+  }
 }
 
 @media (max-width: 480px) {
-    .parent-container {
-        padding: 0 15px 30px;
-    }
-    #blurb {
-        font-size: 16px;
-    }
-     h2 {
-      font-size: 10vw;
-      left: 12vw;
-    }
-    .logo-container {
-        width: 12vw;
-        height: 12vw;
-    }
-    #photo2 {
-        max-height: 30vh;
-    }
+  h2 {
+    height: 14vw;
+    line-height: 14vw;
+    font-size: 12vw;
+    left: 14vw;
+  }
+  .about-parent-container {
+    margin-top: 15vw; /* Match header height exactly */
+    padding: 0 15px 30px;
+  }
+  #blurb {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 10vw;
+    left: 12vw;
+  }
+  .logo-container {
+    width: 12vw;
+    height: 12vw;
+  }
+  .about-image img {
+    max-height: 30vh;
+  }
+  .header-bg {
+    height: 24vw;
+    min-height: 60px;
+  }
 }

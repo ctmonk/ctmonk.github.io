@@ -11,7 +11,7 @@
     },
     {
       "type": "image",
-      "src": "/Assets/Images/Helgoland_Receiver_Layout.jpeg",
+      "src": "/Assets/Images/Helgoland_Receiver_Layout.webp",
       "alt": "Acoustic telemetry receivers prepared for deployment",
       "caption": "16 acoustic receivers laid out at the AWI dive centre on Helgoland before deployment in the North Sea"
     },
@@ -21,7 +21,7 @@
     },
     {
       "type": "image",
-      "src": "/Assets/Images/Lange_Anna.jpeg",
+      "src": "/Assets/Images/Lange_Anna.webp",
       "alt": "View from Helgoland",
       "caption": "Working in Helgoland also brings some nice views"
     },

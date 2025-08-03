@@ -3,7 +3,7 @@
       {
         "name": "Christopher Monk",
         "role": "PI",
-        "photo": "Assets/Member_Photos/Christopher_Monk_Photo.jpg",
+        "photo": "Assets/Member_Photos/Christopher_Monk_Photo.webp",
         "focus": "Fish behavioural ecology, applied fisheries science, social-ecological systems",
         "links": [
           {"type": "email", "url": "mailto:cmonk@geomar.de"},
@@ -15,7 +15,7 @@
       {
         "name": "Felix Mittermayer-Schmittmann",
         "role": "Scientist",
-        "photo": "Assets/Member_Photos/FelixMittermayer.jpg",
+        "photo": "Assets/Member_Photos/FelixMittermayer.webp",
         "focus": "Fish biology, movement ecology, climate change ecology, fish early life stages",
         "links": [
           {"type": "email", "url": "mailto:fmittermayer@geomar.de"},
@@ -27,7 +27,7 @@
       {
         "name": "Natalie Klinard",
         "role": "Post-doctoral researcher",
-        "photo": "Assets/Member_Photos/NatalieKlinard.png",
+        "photo": "Assets/Member_Photos/NatalieKlinard.webp",
         "focus": "Fish movement ecology, fisheries management, causal inference",
         "links": [
           {"type": "email", "url": "mailto:nklinard@geomar.de"},
@@ -38,7 +38,7 @@
       {
         "name": "Hanna Rudnick",
         "role": "Scientific assistant",
-        "photo": "Assets/Member_Photos/HannaRudnick.jpg",
+        "photo": "Assets/Member_Photos/HannaRudnick.webp",
         "focus": "Fish aging methods, otolith microchemistry",
         "links": [
           {"type": "email", "url": "mailto:hrudnick@geomar.de"},
@@ -51,7 +51,7 @@
       {
         "name": "Pina Hentschel",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/PinaHentschel.jpeg",
+        "photo": "Assets/Member_Photos/PinaHentschel.webp",
         "focus": "Fish behavioural ecology, movement ecology, great hammerheads",
         "links": [
           {"type": "email", "url": "mailto:pina.hentschel@stu.uni-kiel.de"},
@@ -64,7 +64,7 @@
       {
         "name": "Fenja-Marie Möller",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/FenjaMarieMoeller.JPEG",
+        "photo": "Assets/Member_Photos/FenjaMarieMoeller.webp",
         "focus": "Marine ecology, fish movement patterns, acoustic telemetry, scientific diving",
         "links": [
           {"type": "email", "url": "mailto:stu241552@mail.uni-kiel.de"},
@@ -76,7 +76,7 @@
       {
         "name": "Georgia Avgerinou",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.jpg",
+        "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.webp",
         "focus": "Fish behavioural ecology, acoustic telemetry, animal social networks",
         "links": [
           {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"}
@@ -85,7 +85,7 @@
       {
         "name": "Anne Eilrich",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/AnneEilrich.JPG",
+        "photo": "Assets/Member_Photos/AnneEilrich.webp",
         "focus": "Baltic Sea harbour porpoises, passive acoustic monitoring, scientific diving",
         "links": [
           {"type": "email", "url": "mailto:aeilrich@geomar.de"},
@@ -97,7 +97,7 @@
         {
         "name": "Peer Krause",
         "role": "Intern",
-        "photo": "Assets/Member_Photos/PeerKrause.jpg",
+        "photo": "Assets/Member_Photos/PeerKrause.webp",
         "focus": "Acoustic Telemetry, Data Management, Receiver Deployment",
         "links": [
           {"type": "linkedin", "url": "https://www.linkedin.com/in/peer-krause-309168293"}
@@ -108,7 +108,7 @@
     {
         "name": "Mohammadreza Hemmati",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/Mohammadreza.png",
+        "photo": "Assets/Member_Photos/Mohammadreza.webp",
         "focus": "Socio-ecological systems, Fisher behaviour",
         "end_year": "2024",
         "links": [
@@ -120,7 +120,7 @@
     {
         "name": "Samantha Juber",
         "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/Sam_Juber_Photo.jpg",
+        "photo": "Assets/Member_Photos/Sam_Juber_Photo.webp",
         "focus": "Passive acoustic monitoring, Cetaceans",
         "end_year": "2024",
         "links": [
@@ -131,7 +131,7 @@
     {
         "name": "Marie Ritter",
         "role": "Intern",
-        "photo": "Assets/Member_Photos/MarieRitter.jpg",
+        "photo": "Assets/Member_Photos/MarieRitter.webp",
         "focus": "Fish behavioural ecology, fish cognition",
         "end_year": "2023",
         "links": [

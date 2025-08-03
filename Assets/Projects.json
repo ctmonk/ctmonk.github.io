@@ -13,13 +13,13 @@
       "media": [
         {
           "type": "image",
-          "url": "Assets/Images/dtotrack-logo_v2.png",
+          "url": "Assets/Images/dtotrack-logo_v2.webp",
           "alt": "DTOTrack logo",
           "caption": "DTOTrack logo"
         },
         {
           "type": "image",
-          "url": "Assets/Images/VisCapture3.png",
+          "url": "Assets/Images/VisCapture3.webp",
           "alt": "3D visualization of fish movement",
           "caption": "3d visualization of fish movement"
         }
@@ -45,7 +45,7 @@
       "media": [
         {
           "type": "image",
-          "url": "Assets/Images/MainFigure.png",
+          "url": "Assets/Images/MainFigure.webp",
           "alt": "sARDINE hypotheses",
           "caption": "sARDINE hypotheses and available acoustic telemetry datasets"
         }

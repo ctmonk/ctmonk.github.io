@@ -5,7 +5,7 @@
         "content": "The lab setup an educational booth at the Kieler Woche Open Ship Day, demonstrating how acoustic telemetry functions, and explaining the various ways we can study how fish behave in the sea. The ship was packed with visitors.",
         "images": [
             {
-           "url": "Assets/Images/2025OpenShipDay.jpg",
+           "url": "Assets/Images/2025OpenShipDay.webp",
            "alt": "2025 Open Ship Day",
            "caption": "The lab at the Kieler Woche Open Ship Day 2025 after the event (Natalie Klinard, Felix Mittermayer-Schmittmann, Christopher Monk, Pina Hentschel and Fenja-Marie Möller, photo: Sarah Uphoff, GEOMAR)"
            }
@@ -17,7 +17,7 @@
         "content": "Fenja presented her M.Sc. thesis results at the International Conference on Fish Telemetry in Traverse City, Michigan. Her talk was titled 'Monitoring the Danish Straits using acoustic telemetry to understand how environmental drivers influence fish migrations in a major swimway'",
         "images": [
             {
-           "url": "Assets/Images/Fenja_ICFT2025.jpeg",
+           "url": "Assets/Images/Fenja_ICFT2025.webp",
            "alt": "Fenja presenting at ICFT 2025",
            "caption": "Fenja delivering her talk at ICFT 2025"
            }
@@ -29,12 +29,12 @@
         "content": "The lab was out on the FK Littorina to Boknis Eck for some equipment testing and receiver deployment trials.",
         "images": [
             {
-           "url": "Assets/Images/Littorina_trip1.jpg",
+           "url": "Assets/Images/Littorina_trip1.webp",
            "alt": "Planning the test deployment",
            "caption": "Planning the test deployment"
            },
            {
-          "url": "Assets/Images/Littorina_trip2.jpeg",
+          "url": "Assets/Images/Littorina_trip2.webp",
            "alt": "Setting off for range testing",
            "caption": "Setting off for range testing"
           }
@@ -51,7 +51,7 @@
         "date": "Dec 13, 2024",
         "content": "The Marine Behavioural Ecology Lab had their annual Christmas party today, enjoying the Kiel Christmas markets",
         "images": [{
-           "url": "Assets/Images/Christmas_party_2024.jpg",
+           "url": "Assets/Images/Christmas_party_2024.webp",
            "alt": "Christmas party 2024 group photo",
            "caption": "Winter weather at the Kiel Christmas markets"
         }]
@@ -61,7 +61,7 @@
         "date": "December 13, 2024",
         "content": "Mohammadreza Hemmati successfully defended his Master's thesis, 'A Quantitative assessment of an exploration-exploitation framework to predict at-sea fisher social behaviour: insights from the Mediterranean bluefin tuna fishery', today. Congratulations Mohammadreza!!",
         "images": [{
-           "url": "Assets/Images/Mohammadreza_defense.jpg",
+           "url": "Assets/Images/Mohammadreza_defense.webp",
            "alt": "Mohammadreza Defence",
            "caption": "Congratulations Mohammadreza!!"
         }]
@@ -76,7 +76,7 @@
         "date": "Dec 2, 2024",
         "content": "The sARDINE sDiv working group is having their second meeting at iDiv in Leipzig, Germany this week. Read more about the work <a href = 'https://www.idiv.de/wp-content/uploads/2025/03/meeting-report_PI_sARDINE-2docx.pdf'> here </a>.",
         "images": [{
-           "url": "Assets/Images/sARDINE2_2024_Dec_group-picture-scaled.jpg",
+           "url": "Assets/Images/sARDINE2_2024_Dec_group-picture-scaled.webp",
            "alt": "sARDINE 2 group photo",
            "caption": "sARDINE 2 group photo at iDiv, Leipzig, Germany"
         }]
@@ -111,7 +111,7 @@
         "date": "April 2, 2024",
         "content": "The sARDINE sDiv working group is having their first meeting at iDiv in Leipzig, Germany this week. Read more about the work <a href = 'https://www.idiv.de/wp-content/uploads/2024/08/A_meeting-report_PI_sARDINE_14062024.pdf'> here </a>.",
         "images": [{
-           "url": "Assets/Images/sARDINE1-2024.jpg",
+           "url": "Assets/Images/sARDINE1-2024.webp",
            "alt": "sARDINE 1 group photo",
            "caption": "sARDINE 1 group photo at iDiv, Leipzig, Germany"
         }]

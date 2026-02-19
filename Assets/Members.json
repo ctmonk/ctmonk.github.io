@@ -24,20 +24,10 @@
           {"type": "linkedin", "url": "https://www.linkedin.com/in/felix-mittermayer-19b14b44/"}
         ]
       },
-      {
-        "name": "Natalie Klinard",
-        "role": "Post-doctoral researcher",
-        "photo": "Assets/Member_Photos/NatalieKlinard.webp",
-        "focus": "Fish movement ecology, fisheries management, causal inference",
-        "links": [
-          {"type": "email", "url": "mailto:nklinard@geomar.de"},
-          {"type": "scholar", "url": "https://scholar.google.com/citations?user=bb1kpu4AAAAJ&hl=en&oi=ao"},
-          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Natalie-Klinard"}
-        ]
-      },
+      
       {
         "name": "Hanna Rudnick",
-        "role": "Scientific assistant",
+        "role": "Scientist",
         "photo": "Assets/Member_Photos/HannaRudnick.webp",
         "focus": "Fish aging methods, otolith microchemistry",
         "links": [
@@ -61,18 +51,7 @@
           {"type": "linkedin", "url": "https://www.linkedin.com/in/pina-hentschel-b65a8b2aa/"}
         ]
       },
-      {
-        "name": "Fenja-Marie Möller",
-        "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/FenjaMarieMoeller.webp",
-        "focus": "Marine ecology, fish movement patterns, acoustic telemetry, scientific diving",
-        "links": [
-          {"type": "email", "url": "mailto:stu241552@mail.uni-kiel.de"},
-          {"type": "scholar", "url": "https://scholar.google.de/citations?user=5UdNSowAAAAJ&hl=de"},
-          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Fenja-Marie-Moeller"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/fenja-marie-m%C3%B6ller-929a7a2a9/"}
-        ]
-      },
+      
       {
         "name": "Georgia Avgerinou",
         "role": "M.Sc. student",
@@ -96,7 +75,7 @@
       },
         {
         "name": "Peer Krause",
-        "role": "Intern",
+        "role": "M.Sc. student",
         "photo": "Assets/Member_Photos/PeerKrause.webp",
         "focus": "Acoustic Telemetry, Data Management, Receiver Deployment",
         "links": [
@@ -106,15 +85,39 @@
     ],
     "past": [
     {
-        "name": "Mohammadreza Hemmati",
+        "name": "Natalie Klinard",
+        "role": "Post-doctoral researcher",
+        "photo": "Assets/Member_Photos/NatalieKlinard.webp",
+        "focus": "Fish movement ecology, fisheries management, causal inference",
+        "end_year": "2026",
+        "links": [
+          {"type": "email", "url": "mailto:nklinard@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=bb1kpu4AAAAJ&hl=en&oi=ao"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Natalie-Klinard"}
+        ]
+      },  
+    {
+        "name": "Fenja-Marie Möller",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/FenjaMarieMoeller.webp",
+        "focus": "Marine ecology, fish movement patterns, acoustic telemetry, scientific diving",
+        "end_year": "2025",
+        "links": [
+          {"type": "email", "url": "mailto:stu241552@mail.uni-kiel.de"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?user=5UdNSowAAAAJ&hl=de"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Fenja-Marie-Moeller"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/fenja-marie-m%C3%B6ller-929a7a2a9/"}
+        ]
+      },  
+    {
+        "name": "Adrian Hemmati",
         "role": "M.Sc. student",
         "photo": "Assets/Member_Photos/Mohammadreza.webp",
         "focus": "Socio-ecological systems, Fisher behaviour",
         "end_year": "2024",
         "links": [
         {"type": "email", "url": "mailto:stu237954@mail.uni-kiel.de"},
-        {"type": "researchgate", "url": "https://www.researchgate.net/profile/Mohammadreza-Hemmati"},
-        {"type": "linkedin", "url": "https://www.linkedin.com/in/mohammadreza-hemmati-he-him-2859a010b/"}
+        {"type": "linkedin", "url": "https://www.linkedin.com/in/adrian-hemmati-2859a010b/"}
         ]
     },
     {

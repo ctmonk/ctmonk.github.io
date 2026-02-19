@@ -38,7 +38,16 @@ document.addEventListener('DOMContentLoaded', function() {
           if (filter === 'all') {
             pub.style.display = 'block';
           } 
-          else if (filter === 'year-2023' && pubYear >= 2023) {
+          else if (filter === 'year-2026' && pubYear >= 2026 && pubYear < 2027) {
+            pub.style.display = 'block';
+          } 
+          else if (filter === 'year-2025' && pubYear >= 2025 && pubYear < 2026) {
+            pub.style.display = 'block';
+          } 
+          else if (filter === 'year-2024' && pubYear >= 2024 && pubYear < 2025) {
+            pub.style.display = 'block';
+          } 
+          else if (filter === 'year-2023' && pubYear >= 2023 && pubYear < 2024) {
             pub.style.display = 'block';
           } 
           else if (filter === 'year-2020' && pubYear >= 2020 && pubYear <= 2022) {

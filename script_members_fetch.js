@@ -36,6 +36,8 @@ function renderMembers(members, container, isPast = false) {
           return `<a href="${link.url}" class="member-link" aria-label="ResearchGate"><i class="ai ai-researchgate-square"></i></a>`;
         case 'linkedin':
           return `<a href="${link.url}" class="member-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>`;
+        case 'website':
+          return `<a href="${link.url}" class="member-link" aria-label="Personal Website" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>`;  
         default:
           return '';
       }

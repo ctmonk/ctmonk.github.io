@@ -39,6 +39,19 @@
         ]
       },
       {
+        "name": "David Graf",
+        "role": "PhD Student",
+        "photo": "Assets/Member_Photos/coming_soon.png",
+        "focus": "Fish behavioral ecology, movement ecology, inverse reinforcement learning",
+        "links": [
+          {"type": "email", "url": "mailto:dgraf@geomar.de"},
+          {"type": "cv", "url": "https://davidrmgraf.github.io/files/CV.pdf"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?hl=de&user=DlQMJ9IAAAAJ"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/David_Graf6"},
+          {"type": "website", "url": "https://davidrmgraf.github.io"}
+        ]
+      },
+      {
         "name": "Pina Hentschel",
         "role": "M.Sc. student",
         "photo": "Assets/Member_Photos/PinaHentschel.webp",

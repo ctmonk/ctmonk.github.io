@@ -58,7 +58,9 @@
         "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.webp",
         "focus": "Fish behavioural ecology, acoustic telemetry, animal social networks",
         "links": [
-          {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"}
+          {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Georgia-Avgerinou-2"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/georgia-avgerinou/"}
         ]
       },
       {

@@ -94,7 +94,19 @@
         "photo": "Assets/Member_Photos/PeerKrause.webp",
         "focus": "Acoustic Telemetry, Data Management, Receiver Deployment",
         "links": [
+          {"type": "email", "url": "mailto:peer.krause.research@gmail.com "},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Peer-Krause"},
           {"type": "linkedin", "url": "https://www.linkedin.com/in/peer-krause-309168293"}
+        ]
+      },
+    {
+        "name": "Eric Otten",
+        "role": "B.Sc. student",
+        "photo": "Assets/Member_Photos/EricOtten.jpeg",
+        "focus": "Fish ecology, non-lethal sex identification",
+        "links": [
+          {"type": "email", "url": "mailto:stu201645@mail.uni-kiel.de"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Eric-Otten?ev=hdr_xprf"}
         ]
       }
     ],

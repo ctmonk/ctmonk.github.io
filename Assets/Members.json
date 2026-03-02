@@ -41,7 +41,7 @@
       {
         "name": "David Graf",
         "role": "PhD Student",
-        "photo": "Assets/Member_Photos/coming_soon.png",
+        "photo": "Assets/Member_Photos/david.jpg",
         "focus": "Fish behavioral ecology, movement ecology, inverse reinforcement learning",
         "links": [
           {"type": "email", "url": "mailto:dgraf@geomar.de"},

@@ -12,7 +12,16 @@
     ],
     "media": [
       {
-
+        "type": "image",
+        "url":  "Assets/Images/felix_lander.jpg",
+        "alt":  "lander and acoustic receiver",
+        "caption": "Deployment of acoustc receivers" 
+      },
+      {
+        "type": "image",
+        "url": "Assets/Images/ar_ofos_cap.jpg",
+        "alt": "acoustic receiver underwater",
+        "caption": "Acoustic receiver captured underwater by towed camera"
       }
     ]
   },

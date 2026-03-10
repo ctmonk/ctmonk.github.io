@@ -13,15 +13,63 @@
     "media": [
       {
         "type": "image",
-        "url":  "Assets/Images/felix_lander.jpg",
+        "url":  "Assets/Images/felix_lander.webp",
         "alt":  "lander and acoustic receiver",
         "caption": "Deployment of acoustc receivers" 
       },
       {
         "type": "image",
-        "url": "Assets/Images/ar_ofos_cap.jpg",
+        "url": "Assets/Images/ar_ofos_cap.webp",
         "alt": "acoustic receiver underwater",
         "caption": "Acoustic receiver captured underwater by towed camera"
+      }
+    ]
+  },
+  {
+    "title": "UrbanOcean",
+      "subtitle": "Urbanization of the sea - assessing and managing the impact of Offshore Wind developments on open ocean biodiversity ",
+      "status": "ongoing",
+      "description": "Europe’s seas are undergoing an unprecedented transformation, with large sections of sea dedicated to offshore wind farms (OWF). The transformation is akin to the process of urbanization in terrestrial environments, leading to a complete transformation of the entire socio-ecological system, affecting both the biological life dwelling in the region and the management, stewardship and conservation of the region. While OWF are generally considered to provide habitat and shelter in regions typically devoid of structure, enhancing biodiversity, this sentiment has not been well assessed with respect to migratory fishes. A wealth of tracking data has accumulated via acoustic telemetry and archival tagging projects, assembled in the database of the European Tracking Network (ETN). Further coordination within the network enables the sharing of tracking data and infrastructure across borders and projects. Gradually the seas of Europe are becoming networked with acoustic receivers capable of detecting and logging the passage of tagged fish in their vicinity. Combining such field based empirical data collection with meta-analysis,  ecosystem modelling, agent based modelling and stakeholder workshops, under the conceptual framework of ocean urbanization will consequently develop a new perspective on the impact of OWF on biodiversity and how those impacts resonate into society.  In this way past knowledge and newly collected empirical data can be integrated in ecosystem level and socio-ecological system level models to generate resources for marine spatial planning tools.",
+      "date": "2026-2029",
+      "funding": [
+      {
+              "source": "Biodiversa+",
+              "url": "https://www.biodiversa.eu/2024/06/11/2024-2025-joint-call/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url":  "Assets/Images/UrbanOcean logo_v1.webp",
+        "alt":  "UrbanOcean logo",
+        "caption": "UrbanOcean logo" 
+      }
+    ]
+  },
+  {
+      "title": "Swimulations",
+      "subtitle": "Predicting fish movement using inverse reinforcement learning",
+      "status": "ongoing",
+      "description": "Our mechanistic understanding of what drives individual fish movement is poor and the links between the environment, internal state and fish movement have not been widely explored. An improved understanding the heuristics and reward functions that fish use to navigate through their environment would yield important insights into fish movement. Additionally, access to the reward functions determining fish movement would yield fundamental insights into how fish have evolved to overcome the constraints they face in their daily lives. Inverse reinforcement learning is a machine-learning method with growing interest, but not yet incorporated into the study of fish movement. If applied to fish tracking data inverse reinforcement learning could serve the dual purpose of building predictive models of fish trajectories, and providing insights into the mechanisms driving fish movement by uncovering reward functions. In Swimulations we aim to use simulations to first investigate the conditions where inverse reinforcement learning applies well to fish movement data. We then aim to apply the method to acoustic telemetry datasets to ask which reward functions best explain indivdual fish behaviour, potentially informing how fish movement may change in future ocean environments under global change. The project is in collaboration with Dr. Sören Christensen from the Department of Mathematics, Christian-Albrechts University Kiel, and David Graf.",
+      "date": "2026-2029",
+      "funding": [
+      {
+              "source": "MarData",
+              "url": "https://www.mardata.de/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url":  "Assets/Images/digitalcod.webp",
+        "alt":  "Digital Cod Logo",
+        "caption": "Digital Cod" 
+      },
+      {
+        "type": "image",
+        "url":  "Assets/Images/SimAppHeader.svg",
+        "alt":  "Simulation logo",
+        "caption": "Simulation logo" 
       }
     ]
   },

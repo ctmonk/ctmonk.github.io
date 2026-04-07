@@ -1,5 +1,94 @@
 [
   {
+        "title": "Pina defends thesis",
+        "date": "March 30, 2026",
+        "content": "Pina Hentschel successfully defended her Master's thesis, 'Movement Ecology of Great Hammerhead Sharks (Sphyrna mokarran): Structure and Drivers of Behavior across Body Size revealed by Acoustic Telemetry', today. Way to go Pina!!",
+        "images": [
+            {
+           "url": "Assets/Images/PinaDefense.jpg",
+           "alt": "2026 Pina Defense",
+           "caption": "Congratulations Pina!!"
+           }
+        ]
+      },
+  {
+        "title": "Georgia defends thesis",
+        "date": "March 17, 2026",
+        "content": "Georgia Avgerinou successfully defended her Master's thesis, 'Investigating the association of two Atlantic cod ecotypes through acoustic telemetry and network analysis', today. Congratulations Georgia!!",
+        "images": [
+            {
+           "url": "Assets/Images/GeorgiaDefense.jpeg",
+           "alt": "2026 Georgia Defense",
+           "caption": "Congratulations Georgia!!"
+           }
+        ]
+      },
+  {
+        "title": "7th Western Baltic Cod Forum",
+        "date": "February 24, 2026",
+        "content": "The group hosted the 7th Western Baltic Cod Forum, bringing together researchers to discuss current findings, challenges and future directions for cod research in the region. Two days of great conversations (and coffee) to keep things going."
+        
+      },
+  {
+        "title": "GATE Meeting in Hamburg",
+        "date": "February 16, 2026",
+        "content": "A meeting in Hamburg was held to connect, coordinate and advance German acoustic telemetry efforts. It was great to connect in person, exchange ideas and lay the groundwork for future collaborations.",
+        "images": [
+            {
+           "url": "Assets/Images/GATEMeeting.jpg",
+           "alt": "2026 GATE",
+           "caption": "GATE group picture in front of the ship propellor of the Maritime Museum, Hamburg"
+           }
+        ]
+      },
+  {
+        "title": "Alkor cruise Al644",
+        "date": "November 28, 2025",
+        "content": "During a recent cruise aboard the research vessel Alkor, the team successfully deployed several receivers as part of the SCHUFI project.",
+        "images": [
+            {
+           "url": "Assets/Images/NovemberCruise.jpg",
+           "alt": "2025 Alkor Cruise",
+           "caption": "A receiver ready for deployment"
+           }
+        ]
+      },
+  {
+        "title": "Hanna defends thesis",
+        "date": "November 14, 2025",
+        "content": "Hanna Rudnick successfully defended her Master's thesis, 'Cod Chronicles: Unravelling environmental effects on growth and condition of western Baltic cod based on otolith microchemistry', today. Congratulations Hanna!!",
+        "images": [
+            {
+           "url": "Assets/Images/HannaDefense.jpeg",
+           "alt": "Hanna Defense",
+           "caption": "Hanna aboard Alkor"
+           }
+        ]
+      },
+  {
+        "title": "Fenja defends thesis",
+        "date": "October 6, 2025",
+        "content": "Fenja-Marie Möller successfully defended her Master's thesis, 'Monitoring the Danish Straits Using Actoustic Telemetry to Understand How Environmental Drivers Influence Fish Migrations In A Major Swimway', today. Way to go Fenja!!"
+      },
+  
+  
+  
+  
+  
+  
+  {
+        "title": "Back to Helgoland",
+        "date": "September 14, 2025",
+        "content": "The lab headed out to Helgoland for some receiver maintenance. It was a great chance to get back out in the field, check the receivers and enjoy some fresh sea air along the way.",
+        "images": [
+            {
+           "url": "Assets/Images/HelgolandSeptember.jpg",
+           "alt": "2025 Helgoland",
+           "caption": "The receivers ready for some maintenance"
+           }
+        ]
+      },
+  {
         "title": "Kieler Woche Open Ship Day",
         "date": "June 27, 2025",
         "content": "The lab setup an educational booth at the Kieler Woche Open Ship Day, demonstrating how acoustic telemetry functions, and explaining the various ways we can study how fish behave in the sea. The ship was packed with visitors.",

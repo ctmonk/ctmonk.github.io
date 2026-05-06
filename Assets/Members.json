@@ -41,7 +41,7 @@
       {
         "name": "David Graf",
         "role": "PhD Student",
-        "photo": "Assets/Member_Photos/david.jpg",
+        "photo": "Assets/Member_Photos/david.webp",
         "focus": "Fish behavioral ecology, movement ecology, inverse reinforcement learning",
         "links": [
           {"type": "email", "url": "mailto:dgraf@geomar.de"},
@@ -101,7 +101,7 @@
     {
         "name": "Eric Otten",
         "role": "B.Sc. student",
-        "photo": "Assets/Member_Photos/EricOtten.jpeg",
+        "photo": "Assets/Member_Photos/EricOtten.webp",
         "focus": "Fish ecology, non-lethal sex identification",
         "links": [
           {"type": "email", "url": "mailto:stu201645@mail.uni-kiel.de"},

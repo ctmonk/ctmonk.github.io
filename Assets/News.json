@@ -5,7 +5,7 @@
         "content": "Pina Hentschel successfully defended her Master's thesis, 'Movement Ecology of Great Hammerhead Sharks (Sphyrna mokarran): Structure and Drivers of Behavior across Body Size revealed by Acoustic Telemetry', today. Way to go Pina!!",
         "images": [
             {
-           "url": "Assets/Images/PinaDefense.jpg",
+           "url": "Assets/Images/PinaDefense.webp",
            "alt": "2026 Pina Defense",
            "caption": "Congratulations Pina!!"
            }
@@ -17,7 +17,7 @@
         "content": "Georgia Avgerinou successfully defended her Master's thesis, 'Investigating the association of two Atlantic cod ecotypes through acoustic telemetry and network analysis', today. Congratulations Georgia!!",
         "images": [
             {
-           "url": "Assets/Images/GeorgiaDefense.jpeg",
+           "url": "Assets/Images/GeorgiaDefense.webp",
            "alt": "2026 Georgia Defense",
            "caption": "Congratulations Georgia!!"
            }
@@ -35,7 +35,7 @@
         "content": "A meeting in Hamburg was held to connect, coordinate and advance German acoustic telemetry efforts. It was great to connect in person, exchange ideas and lay the groundwork for future collaborations.",
         "images": [
             {
-           "url": "Assets/Images/GATEMeeting.jpg",
+           "url": "Assets/Images/GATEMeeting.webp",
            "alt": "2026 GATE",
            "caption": "GATE group picture in front of the ship propellor of the Maritime Museum, Hamburg"
            }
@@ -47,7 +47,7 @@
         "content": "During a recent cruise aboard the research vessel Alkor, the team successfully deployed several receivers as part of the SCHUFI project.",
         "images": [
             {
-           "url": "Assets/Images/NovemberCruise.jpg",
+           "url": "Assets/Images/NovemberCruise.webp",
            "alt": "2025 Alkor Cruise",
            "caption": "A receiver ready for deployment"
            }
@@ -59,7 +59,7 @@
         "content": "Hanna Rudnick successfully defended her Master's thesis, 'Cod Chronicles: Unravelling environmental effects on growth and condition of western Baltic cod based on otolith microchemistry', today. Congratulations Hanna!!",
         "images": [
             {
-           "url": "Assets/Images/HannaDefense.jpeg",
+           "url": "Assets/Images/HannaDefense.webp",
            "alt": "Hanna Defense",
            "caption": "Hanna aboard Alkor"
            }
@@ -82,7 +82,7 @@
         "content": "The lab headed out to Helgoland for some receiver maintenance. It was a great chance to get back out in the field, check the receivers and enjoy some fresh sea air along the way.",
         "images": [
             {
-           "url": "Assets/Images/HelgolandSeptember.jpg",
+           "url": "Assets/Images/HelgolandSeptember.webp",
            "alt": "2025 Helgoland",
            "caption": "The receivers ready for some maintenance"
            }

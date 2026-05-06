@@ -1,0 +1,49 @@
+{"id": "post2",
+  "title": "Back to Helgoland!",
+  "author": "<a href = '/Members.html'>Pina Hentschel</a>",
+  "date": "2025-09-16",
+  "category": "Fieldwork",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A few months after installing our finescale acoustic telemetry array off Helgoland, it was time to head back and see how things were going. Our 16 receivers are deployed in the MarGate field, the underwater research area operated by the Alfred Wegener Institute on the north side of the island. This visit was different from the last one: instead of deploying new equipment, we were there for maintenance. The dive team had already recovered our receivers and brought them back to land shortly before we arrived."
+    },
+    {
+      "type": "image",
+      "src": "/Assets/Images/Receivers_with_biofouling.webp",
+      "alt": "Acoustic telemetry receivers ready for some cleaning",
+      "caption": "Recovered receivers laid out at the AWI dive centre on Helgoland ready for a thorough clean"
+    },
+    {
+      "type": "paragraph",
+      "text": "The North Sea had definitely left its mark. The receivers were covered in algae, hydroids, and all sorts of other fouling organisms that had happily settled on the housings. It’s always impressive (and slightly humbling) to see how quickly the sea claims anything you place in it. At the same time, this kind of overgrowth can interfere with acoustic performance, so our first task was a thorough cleaning. Armed with brushes, scrapers and some patience, we removed the fouling until the receivers looked like scientific instruments again."
+    },
+    {
+      "type": "image",
+      "src": "/Assets/Images/Data_download_and_cleaning.webp",
+      "alt": "Cleaning the receivers",
+      "caption": "Our outdoor working setup to download data and to clean the recivers"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Once everything was clean, we moved on to downloading the data. That is always the most exciting part and also the most nerve-racking. After transferring and saving the data, the receiver memory has to be cleared to make space for the coming months. Deleting data never feels comfortable, even when you know it’s necessary, so we double- and triple-checked that everything was safely backed up on our laptops before pressing that final button. After downloading the data, we replaced the batteries in each receiver to keep them running through the next deployment period. Cleaned, freshly powered, and ready to go, they can now be brought out again by the dive team and returned to their positions on the seafloor."
+    },
+    {
+      "type": "image",
+      "src": "/Assets/Images/Receivers_ready_again.webp",
+      "alt": "Receivers ready for deployment",
+      "caption": "Clean receivers with full batteries ready for deployment"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "The array may already be listening, but the real fun is just beginning. Our next step is diving into the positioning algorithms and calibrating the system using the results from our range tests and we’re excited to see what the next phase of the project will bring."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "More info about the project can be found <a href = '/Projects.html'> here </a>."
+    }
+  ]
+}

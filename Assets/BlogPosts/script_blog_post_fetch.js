@@ -1,24 +1,36 @@
-document.addEventListener('DOMContentLoaded', () => {
-    fetch('post1.json')
-        .then(response => response.json())
-        .then(post => {
-            const postElement = document.getElementById('blog-post-full');
-            if (!postElement) return;
 
-            // Build the meta/header
+
+document.addEventListener('DOMContentLoaded', () => {
+    const postElement = document.getElementById('blog-post-full');
+    if (!postElement) return;
+
+    const jsonFile = postElement.dataset.postJson;
+
+    if (!jsonFile) {
+        postElement.innerHTML = '<p>No JSON file specified for this blog post.</p>';
+        return;
+    }
+
+    fetch(jsonFile)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Could not load ${jsonFile}`);
+            }
+            return response.json();
+        })
+        .then(post => {
             let html = `
                 <h1>${post.title}</h1>
                 <div class="meta">
                     By: ${post.author} | ${new Date(post.date).toLocaleDateString()}
                 </div>
+                <div class="content">
             `;
 
-            // Render content blocks
-            html += `<div class="content">`;
             post.content.forEach(block => {
                 if (block.type === 'paragraph') {
                     html += `<p>${block.text}</p>`;
-                  } else if (block.type === 'image') {
+                } else if (block.type === 'image') {
                     html += `
                         <figure>
                             <img src="${block.src}" alt="${block.alt || ''}">
@@ -33,14 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         </figure>
                     `;
                 }
-                // Add more types as needed
             });
-            html += `</div>`;
 
+            html += `</div>`;
             postElement.innerHTML = html;
         })
         .catch(error => {
-            document.getElementById('blog-post-full').innerHTML = '<p>Post not found or error loading post.</p>';
+            postElement.innerHTML = '<p>Post not found or error loading post.</p>';
             console.error(error);
         });
 });

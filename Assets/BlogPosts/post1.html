@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
-        </style>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>MarBehEco - BlogPost</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&display=swap');
+    </style>
+
     <link rel="stylesheet" href="/style_blog_posts.css">
     <link rel="stylesheet" href="/style_navbar.css">
+
+    <link rel="shortcut icon" type="image/xl-icon" href="/LogoBlack.svg" sizes="32x32">
+
+    <script src="https://kit.fontawesome.com/49a1d77a98.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <!-- Header -->
     <div class="header-bg"></div>
+
     <div class="logo-container">
         <img src="/LogoLight.svg" alt="Logolight" id="logolight">
     </div>
 
     <h2>Blog</h2>
-    <!-- Consistent Header Structure -->
 
+    <!-- Blog Content -->
     <div class="blog-parent-container">
-        <article id="blog-post-full" class="blog-post-full"></article>
+
+        <!-- IMPORTANT: data-post-json defines which JSON gets loaded -->
+        <article
+            id="blog-post-full"
+            class="blog-post-full"
+            data-post-json="post1.json">
+        </article>
+
     </div>
 
+    <!-- Navbar -->
     <div id="navbar-container"></div>
+
+    <!-- Scripts -->
     <script src="./script_blog_post_fetch.js"></script>
     <script src="/navbar.js"></script>
 

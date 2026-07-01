@@ -1,5 +1,22 @@
 [
   {
+        "title": "Anne defends thesis",
+        "date": "June 17, 2026",
+        "content": "Anne Eilrich successfully defended her Master's thesis, 'Passive acoustic monitoring of harbour porpoises (<i>Phocoena phocoena</i>) in the Kiel bight using fisher-collected data', today. Congrats Anne!!"
+      },
+  {
+        "title": "Anne Eilrich presents at ECSC",
+        "date": "April 24, 2026",
+        "content": "Anne presented her M.Sc. thesis results at the 37th annual European Cetacean Society Conference in Dundee, Scotland.",
+        "images": [
+            {
+           "url": "Assets/Images/AnneConference.webp",
+           "alt": "2026 Anne Conference",
+           "caption": "Well done Anne!"
+           }
+        ]
+      },
+  {
         "title": "Pina defends thesis",
         "date": "March 30, 2026",
         "content": "Pina Hentschel successfully defended her Master's thesis, 'Movement Ecology of Great Hammerhead Sharks (<i>Sphyrna mokarran</i>): Structure and Drivers of Behavior across Body Size revealed by Acoustic Telemetry', today. Way to go Pina!!",

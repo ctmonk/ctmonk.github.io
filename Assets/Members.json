@@ -26,6 +26,17 @@
       },
       
       {
+        "name": "Jordan Matley",
+        "role": "Scientist",
+        "photo": "Assets/Member_Photos/JordanMatley.webp",
+        "focus": "Fish ecology, movement ecology, telemetry, trophic ecology",
+        "links": [
+          {"type": "email", "url": "mailto:jmatley@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=YWWe4VQAAAAJ&hl=en"}
+        ]
+      },
+
+      {
         "name": "Hanna Rudnick",
         "role": "Scientist",
         "photo": "Assets/Member_Photos/HannaRudnick.webp",

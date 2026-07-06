@@ -49,6 +49,20 @@
           {"type": "linkedin", "url": "https://www.linkedin.com/in/hanna-rudnick-01397233a"}
         ]
       },
+      
+      {
+        "name": "Pina Hentschel",
+        "role": "PhD Student",
+        "photo": "Assets/Member_Photos/PinaHentschel.webp",
+        "focus": "Fish behavioural ecology, movement ecology, telemetry",
+        "links": [
+          {"type": "email", "url": "mailto:pina.hentschel@stu.uni-kiel.de"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?hl=de&view_op=list_works&gmla=AL3_zihOo93zGILTU9N6lMgOSRI3HOryqhn-lz8PwMblwBz4Bz8xmSyM-wnVhm6COlZHitqD_zf5XMISnIwyrRZrY60Hbici6iY&user=UmJT-PIAAAAJ"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Pina-Hentschel-4"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/pina-hentschel-b65a8b2aa/"}
+        ]
+      },
+
       {
         "name": "David Graf",
         "role": "PhD Student",
@@ -62,42 +76,7 @@
           {"type": "website", "url": "https://davidrmgraf.github.io"}
         ]
       },
-      {
-        "name": "Pina Hentschel",
-        "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/PinaHentschel.webp",
-        "focus": "Fish behavioural ecology, movement ecology, great hammerheads",
-        "links": [
-          {"type": "email", "url": "mailto:pina.hentschel@stu.uni-kiel.de"},
-          {"type": "scholar", "url": "https://scholar.google.de/citations?hl=de&view_op=list_works&gmla=AL3_zihOo93zGILTU9N6lMgOSRI3HOryqhn-lz8PwMblwBz4Bz8xmSyM-wnVhm6COlZHitqD_zf5XMISnIwyrRZrY60Hbici6iY&user=UmJT-PIAAAAJ"},
-          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Pina-Hentschel-4"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/pina-hentschel-b65a8b2aa/"}
-        ]
-      },
       
-      {
-        "name": "Georgia Avgerinou",
-        "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.webp",
-        "focus": "Fish behavioural ecology, acoustic telemetry, animal social networks",
-        "links": [
-          {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"},
-          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Georgia-Avgerinou-2"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/georgia-avgerinou/"}
-        ]
-      },
-      {
-        "name": "Anne Eilrich",
-        "role": "M.Sc. student",
-        "photo": "Assets/Member_Photos/AnneEilrich.webp",
-        "focus": "Baltic Sea harbour porpoises, passive acoustic monitoring, scientific diving",
-        "links": [
-          {"type": "email", "url": "mailto:aeilrich@geomar.de"},
-          {"type": "scholar", "url": "https://scholar.google.de/citations?user=wtLC3iYAAAAJ&hl=de"},
-          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Anne-Eilrich"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/anne-eilrich-0896a2339"}
-        ]
-      },
         {
         "name": "Peer Krause",
         "role": "M.Sc. student",
@@ -121,6 +100,31 @@
       }
     ],
     "past": [
+    {
+        "name": "Anne Eilrich",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/AnneEilrich.webp",
+        "focus": "Baltic Sea harbour porpoises, passive acoustic monitoring, scientific diving",
+        "end_year": "2026",
+        "links": [
+          {"type": "email", "url": "mailto:aeilrich@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.de/citations?user=wtLC3iYAAAAJ&hl=de"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Anne-Eilrich"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/anne-eilrich-0896a2339"}
+        ]
+      },
+    {
+        "name": "Georgia Avgerinou",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/GeorgiaAvgerinou2.webp",
+        "focus": "Fish behavioural ecology, acoustic telemetry, animal social networks",
+        "end_year": "2026",
+        "links": [
+          {"type": "email", "url": "mailto:georgiaavgerinou@gmail.com"},
+          {"type": "researchgate", "url": "https://www.researchgate.net/profile/Georgia-Avgerinou-2"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/georgia-avgerinou/"}
+        ]
+      },
     {
         "name": "Natalie Klinard",
         "role": "Post-doctoral researcher",

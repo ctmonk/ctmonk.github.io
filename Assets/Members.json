@@ -88,6 +88,18 @@
           {"type": "linkedin", "url": "https://www.linkedin.com/in/peer-krause-309168293"}
         ]
       },
+
+      {
+        "name": "Jule Wirries",
+        "role": "M.Sc. student",
+        "photo": "Assets/Member_Photos/Jule_Wirries.webp",
+        "focus": "Marine Conservation, Movement Ecology, Acoustic Telemetry",
+        "links": [
+          {"type": "email", "url": "mailto:jwirries@geomar.de "},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/jule-wirries-21ba21416/"}
+        ]
+      },
+
     {
         "name": "Eric Otten",
         "role": "B.Sc. student",

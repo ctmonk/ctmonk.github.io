@@ -49,7 +49,22 @@
           {"type": "linkedin", "url": "https://www.linkedin.com/in/hanna-rudnick-01397233a"}
         ]
       },
-      
+
+      {
+        "name": "Timo Rittweg",
+        "role": "Scientist",
+        "photo": "Assets/Member_Photos/TimoRittweg.webp",
+        "focus": "Niche, life history, behavioural diversity, growth biology, trophic ecology",
+        "links": [
+          {"type": "email", "url": "mailto:trittweg@geomar.de"},
+          {"type": "scholar", "url": "https://scholar.google.com/citations?user=zlNsT0kAAAAJ&hl=en"},
+          {"type": "researchgate", "url": "www.researchgate.net/profile/Timo-Rittweg"},
+          {"type": "linkedin", "url": "https://www.linkedin.com/in/timo-d-rittweg-576815183/"},
+          {"type": "bluesky", "url": "https://bsky.app/profile/otolitimo.bsky.social"},
+          {"type": "instagram", "url": "https://www.instagram.com/otolitimo/"}
+        ]
+      },
+
       {
         "name": "Pina Hentschel",
         "role": "PhD Student",

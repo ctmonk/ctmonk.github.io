@@ -38,6 +38,12 @@ function renderMembers(members, container, isPast = false) {
           return `<a href="${link.url}" class="member-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>`;
         case 'website':
           return `<a href="${link.url}" class="member-link" aria-label="Personal Website" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>`;  
+        case 'instagram':
+          return `<a href="${link.url}" class="member-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>`;
+        case 'orcid':
+          return `<a href="${link.url}" class="member-link" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a>`;
+        case 'bluesky':
+          return `<a href="${link.url}" class="member-link" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>`;
         default:
           return '';
       }

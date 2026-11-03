@@ -1,0 +1,71 @@
+:root {
+  --header-height: clamp(76px, 9vw, 124px);
+  --header-logo-size: clamp(48px, 7vw, 92px);
+  --header-title-size: clamp(22px, 4.8vw, 68px);
+  --header-gap: clamp(10px, 1.5vw, 24px);
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 9;
+
+  display: flex;
+  align-items: center;
+  gap: var(--header-gap);
+
+  padding: 0 clamp(12px, 2vw, 28px);
+  padding-right: 70px;
+  box-sizing: border-box;
+
+  background: linear-gradient(to bottom, #181821 80%, transparent);
+}
+
+/* Logo */
+.site-logo {
+  width: var(--header-logo-size);
+  height: var(--header-logo-size);
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Page title */
+.site-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--header-title-size);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.015em;
+
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  white-space: nowrap;
+
+  background: linear-gradient(to right, #81dee0, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mobile adjustments */
+@media (max-width: 380px) {
+  .site-header {
+    padding-left: 10px;
+    padding-right: 52px;
+    gap: 10px;
+  }
+
+  .site-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .site-title {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+}

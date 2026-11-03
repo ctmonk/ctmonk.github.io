@@ -359,3 +359,27 @@
     min-height: 40px;
   }
 }
+
+
+/* NAVBAR LINK COLORS - ALL PAGES*/
+
+/* All inactive tabs stay white */
+#navbar-container .nav-item:not(.active),
+#navbar-container .nav-item:not(.active):visited,
+#navbar-container .nav-item:not(.active):hover {
+  color: #f0f0f0 !important;
+  font-weight: 400;
+}
+
+/* Only the current page is turquoise */
+#navbar-container .nav-item.active,
+#navbar-container .nav-item.active:visited,
+#navbar-container .nav-item.active:hover {
+  color: #81dee0 !important;
+  font-weight: 600;
+}
+
+/* Only show the turquoise indicator on the active tab */
+#navbar-container .nav-item:not(.active):hover::before {
+  opacity: 0;
+}

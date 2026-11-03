@@ -2,12 +2,12 @@ class ModernSidebar {
   constructor() {
     this.navItems = [
       { label: 'Home', href: '/index.html' },
-      { label: 'News', href: '/News.html' },
-      { label: 'Blog', href: '/Blog.html' },
       { label: 'About', href: '/About.html' },
-      { label: 'Projects', href: '/Projects.html' },
+      { label: 'News', href: '/News.html' },
       { label: 'Members', href: '/Members.html' },
+      { label: 'Projects', href: '/Projects.html' },
       { label: 'Publications', href: '/Publications.html' },
+      { label: 'Blog', href: '/Blog.html' },
       { label: 'Resources', href: '/Resources.html' },
       { label: 'Visualizations', href: '/Visualizations.html' },
       { label: 'Contact', href: '/Contact.html' }

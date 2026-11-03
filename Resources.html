@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/svg+xml" href="LogoBlack.svg" sizes="32x32">
+  <title>MarBehEco_Resources</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_resources.css">
+  <link rel="stylesheet" href="style_navbar.css">
+</head>
+
+<body>
+  <div class="header-bg"></div>
+
+  <div id="resources-page">
+    <div class="logo-container">
+      <img src="LogoLight.svg" alt="MarBehEco Logo" id="logolight">
+    </div>
+
+    <h2>Resources</h2>
+
+    <div class="resources-parent-container">
+
+      <!-- R PACKAGES -->
+      <section class="resources-section">
+        <h3>R Packages</h3>
+        <div class="resources-grid">
+          <!-- Add R package cards here -->
+        </div>
+      </section>
+
+      <!-- TOOLS AND DATASETS -->
+      <section class="resources-section">
+        <h3>Tools & Datasets</h3>
+        <div class="resources-grid">
+
+          <div class="resource-card">
+            <h4>Arrayplanr</h4>
+            <p>Helps you plan or optimize your receiver array.</p>
+            <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <!-- Add more tools and datasets here -->
+
+        </div>
+      </section>
+
+      <!-- USEFUL LINKS -->
+      <section class="resources-section">
+        <h3>Useful Links</h3>
+        <div class="resources-grid">
+
+          <div class="resource-card">
+            <h4>European Tracking Network</h4>
+            <p>Official website of the European Tracking Network.</p>
+            <a href="https://europeantrackingnetwork.org/en" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="resource-card">
+            <h4>Gemeinschaft für Aquatische Telemetrie</h4>
+            <p>Official website of the Gemeinschaft für Aquatische Telemetrie.</p>
+            <a href="https://gate.fish" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <!-- Add more useful links here -->
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <div id="navbar-container"></div>
+  <script src="navbar.js"></script>
+
+  <!-- AUTOMATIC COMING SOON MESSAGE -->
+  <script>
+    document.querySelectorAll('.resources-grid').forEach(grid => {
+      if (!grid.querySelector('.resource-card')) {
+        const message = document.createElement('p');
+        message.className = 'resources-empty';
+        message.textContent = 'Coming soon...';
+        grid.appendChild(message);
+      }
+    });
+  </script>
+
+</body>
+</html>
+

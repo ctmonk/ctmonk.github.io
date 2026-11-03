@@ -8,6 +8,7 @@ class ModernSidebar {
       { label: 'Projects', href: '/Projects.html' },
       { label: 'Members', href: '/Members.html' },
       { label: 'Publications', href: '/Publications.html' },
+      { label: 'Resources', href: '/Resources.html' },
       { label: 'Visualizations', href: '/Visualizations.html' },
       { label: 'Contact', href: '/Contact.html' }
     ];

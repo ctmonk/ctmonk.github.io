@@ -13,7 +13,12 @@
   {
         "title": "Anne defends thesis",
         "date": "June 17, 2026",
-        "content": "Anne Eilrich successfully defended her Master's thesis, 'Passive acoustic monitoring of harbour porpoises (<i>Phocoena phocoena</i>) in the Kiel bight using fisher-collected data', today. Congrats Anne!!"
+        "content": "Anne Eilrich successfully defended her Master's thesis, 'Passive acoustic monitoring of harbour porpoises (<i>Phocoena phocoena</i>) in the Kiel bight using fisher-collected data', today. Congrats Anne!!",
+        "images": [
+            {
+           "url": "Assets/Images/Anne_defense.webp", "alt": "2026 Anne Defense", "caption": "Congrats Anne!!"
+           }
+        ]
       },
   {
         "title": "Anne Eilrich presents at ECSC",

@@ -1,5 +1,16 @@
 [
   {
+        "title": "Attending ETN Syposium 2026",
+        "date": "October 13, 2026",
+        "content": "The lab attended the ETN Syposium, held this year in Kopenhagen, Denmark. With some talks and posters, the lab presented their work on acoustic telemetry and fish behaviour. It was a great chance to connect with other researchers and discuss future collaborations. Thanks a lot to DTU Aqua for organizing such a fun event!",
+        "images": [
+            {
+           "url": "Assets/Images/ETN_labpicture2026.webp", "alt": "2026 Lab at ETN Symposium", "caption": "The lab at the ETN Symposium 2026 in Kopenhagen."
+           }
+        ]
+      },
+  
+  {
         "title": "Anne defends thesis",
         "date": "June 17, 2026",
         "content": "Anne Eilrich successfully defended her Master's thesis, 'Passive acoustic monitoring of harbour porpoises (<i>Phocoena phocoena</i>) in the Kiel bight using fisher-collected data', today. Congrats Anne!!"
@@ -10,9 +21,7 @@
         "content": "Anne presented her M.Sc. thesis results at the 37th annual European Cetacean Society Conference in Dundee, Scotland.",
         "images": [
             {
-           "url": "Assets/Images/AnneConference.webp",
-           "alt": "2026 Anne Conference",
-           "caption": "Well done Anne!"
+           "url": "Assets/Images/AnneConference.webp", "alt": "2026 Anne Conference", "caption": "Well done Anne!"
            }
         ]
       },
